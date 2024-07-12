@@ -1,0 +1,343 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e29618a9-4386-4e89-b18e-ffca5bc42d97")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 190.5 88.9)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "03c032f6-d9ec-4cb0-8301-df4c86f9d6f2")
+		(property "Sheetname" "Controls and Switches"
+			(at 190.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switches.kicad_sch"
+			(at 190.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 38.1)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "4f78fe3d-4cd4-441a-a603-f2bfa84ad956")
+		(property "Sheetname" "RP2040"
+			(at 76.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2040.kicad_sch"
+			(at 76.2 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485_RX_LED" input
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a0d1755-fa62-437d-afa7-543d62c41469")
+		)
+		(pin "RS485_TXD" output
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3500bf1-c335-4bd2-9de6-74e9e218af37")
+		)
+		(pin "RS485_TX_EN" output
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75004a2a-172c-4075-9d8d-4ced817f5f0e")
+		)
+		(pin "RS485_TX_LED" input
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd89dd63-ebf5-4084-9b89-bc3c6f34d087")
+		)
+		(pin "RS485_RX_EN" output
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a382720-367b-422e-8f6e-2892f9a4495b")
+		)
+		(pin "RS485_RXD" input
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b33f2859-772f-4b98-a729-38630812acf3")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 1.0000)
+		)
+		(uuid "84696a81-4303-4dc9-95d6-8f2833f496ab")
+		(property "Sheetname" "7 Segment Display"
+			(at 139.7 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 139.7 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 38.1)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 153 0 1.0000)
+		)
+		(uuid "c015e9f1-b0fe-4071-88b9-a5f7158e9ed8")
+		(property "Sheetname" "RS485 Transceiver"
+			(at 139.7 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 139.7 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485_TX_LED" input
+			(at 139.7 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d53a7dc6-d244-4e82-b6b6-a1ef72f09f72")
+		)
+		(pin "RS485_RX_LED" input
+			(at 139.7 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "755ee75e-dcbb-4d6e-9347-e2417b88cc03")
+		)
+		(pin "RS485_RXD" output
+			(at 139.7 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fdf452a9-af74-44a7-83af-3f4f11ed9512")
+		)
+		(pin "RS485_TX_EN" input
+			(at 139.7 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2e15538-81fc-4e10-8886-354d657ae906")
+		)
+		(pin "RS485_TXD" input
+			(at 139.7 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1499f9cc-505f-491c-9f59-911941508a19")
+		)
+		(pin "RS485_RX_EN" input
+			(at 139.7 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1cad01a-aaa0-4dd5-9058-e39461164c88")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 88.9)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 1.0000)
+		)
+		(uuid "ffdb6a6a-bf4e-425d-9eb8-ac5ba3c4a7b2")
+		(property "Sheetname" "Power"
+			(at 76.2 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 76.2 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V_PG" input
+			(at 76.2 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05b76a00-15c0-4f95-bddd-7907c935f49c")
+		)
+		(pin "5V_PG" input
+			(at 76.2 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3978c4c-dadf-4d73-9d39-4ff8a5a79b83")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
