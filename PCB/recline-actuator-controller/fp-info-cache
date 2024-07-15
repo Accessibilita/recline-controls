@@ -1,4 +1,4 @@
-24212786733612543
+24214507755784933
 AVR-KiCAD-Lib-Battery-Holders
 BK-912
 
@@ -776,6 +776,13 @@ Through hole pin header THT 2x21 2.54mm double row
 0
 42
 42
+AVR-KiCAD-Lib-Connectors
+PinSocket_1x04_P2.54mm_Horizontal
+Through hole angled socket strip, 1x04, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated
+Through hole angled socket strip THT 1x04 2.54mm single row
+0
+4
+4
 AVR-KiCAD-Lib-Connectors
 Pin_Header_Angled_1x02_Pitch2.54mm
 Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
