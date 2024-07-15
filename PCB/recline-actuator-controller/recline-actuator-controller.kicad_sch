@@ -5,6 +5,276 @@
 	(uuid "ebcf7e2b-8e27-4fda-b836-f1b7b461dd71")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dbefda-1dea-40fc-8037-d8da4be31d2b")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af1ec7c-777b-4050-9f75-12ad8f08ce57")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289aebe7-d4cb-4cc6-b681-dec963f5b474")
+	)
+	(wire
+		(pts
+			(xy 165.1 49.53) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33941cae-978d-45cc-bb1e-7e742d60c26e")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347ef00c-94ef-49f2-8bd3-ca271d8964d0")
+	)
+	(wire
+		(pts
+			(xy 165.1 54.61) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bca70e-56f2-4a34-a171-ef45c82e9002")
+	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386d3fdd-4e74-44de-8435-c262ebbbcf4a")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a50979-6861-41c2-ad91-a141991a875e")
+	)
+	(wire
+		(pts
+			(xy 165.1 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b22784-afe5-4d41-b343-cec0834415ed")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d98ef4f-4406-440c-a868-8abc09731e17")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e089668-e716-4a9d-90c4-dde291b6f5d2")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5044f88c-78c2-4030-addd-c4455e2b5448")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ab8f7c-cfa9-4a54-9d52-d18979dcc268")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c76d0b5-710a-4d46-b86a-5f3bc34b20b9")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f3a3ab-d9fc-4bfd-ab8b-814a158ab130")
+	)
+	(wire
+		(pts
+			(xy 101.6 64.77) (xy 127 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bed5e7-0979-4cba-a720-d2ec58e25955")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae348e45-6fb4-4809-8a47-3d960d49b8de")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d752d1-69d7-425a-b620-f5ef5794fb74")
+	)
+	(wire
+		(pts
+			(xy 154.94 127) (xy 154.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca930a93-7009-41b4-970e-5460fbf1e1c7")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b0a95c-151f-46ed-bf86-676ee7b8d46f")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76011b8-184f-4dc5-9a59-1b209909a0d1")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33ebeea-8c7a-420b-9ac0-fef8fcef251f")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35d00e6-5d42-4c7d-b071-c9535ae065d9")
+	)
+	(wire
+		(pts
+			(xy 165.1 44.45) (xy 190.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bd188f-a95d-48a9-9d6e-61ede35b1752")
+	)
+	(wire
+		(pts
+			(xy 101.6 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f343804f-d035-4e58-99e7-117c95b77b21")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57f4d95-53b0-45d1-bb33-d009bb9b41e1")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 190.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6eb3a6c-87e7-4337-a469-c3343c0013c8")
+	)
 	(sheet
 		(at 127 38.1)
 		(size 38.1 88.9)
@@ -34,6 +304,276 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "AIR_COMP" input
+			(at 127 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1853a366-25be-41cb-812b-4b1b38212b8f")
+		)
+		(pin "SOLENOID_0" input
+			(at 127 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be527ef1-843b-4494-a93a-d45b0501913e")
+		)
+		(pin "SOLENOID_1" input
+			(at 127 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45253151-8aff-4189-bca6-d280757a106a")
+		)
+		(pin "SOLENOID_2" input
+			(at 127 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad516404-e570-46b7-af6f-e77ad541d31a")
+		)
+		(pin "SOLENOID_3" input
+			(at 127 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf2c9f42-eb30-44ab-9b9e-33c52304a8c2")
+		)
+		(pin "RS485_TX_EN" output
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c2e8dc3-393e-4b30-8971-0767f196b5f2")
+		)
+		(pin "RS485_TXD" output
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b54aa7e-8538-4247-8ac3-573e4de12d79")
+		)
+		(pin "RS485_RXD" input
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b070f273-e6dd-49ef-b27c-d19585b96b6c")
+		)
+		(pin "RS485_RX_LED" input
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "164ca7b7-dba5-4281-b562-6e50863b2b06")
+		)
+		(pin "RS485_TX_LED" input
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eda6d9b2-12f4-4723-a5f4-c96929682ee9")
+		)
+		(pin "RS485_RX_EN" output
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7624168b-2739-4563-bf71-5ee62c837263")
+		)
+		(pin "M1ENA{slash}B" input
+			(at 127 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f3a6bd6-11bd-496c-8cdd-9d1b4ac7be53")
+		)
+		(pin "M1INA" input
+			(at 127 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "919b89b8-2600-4975-a6c8-163a0a348310")
+		)
+		(pin "M1INB" input
+			(at 127 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a2968a5-6d38-473b-b2b0-e6972676e7e4")
+		)
+		(pin "M1PWM" input
+			(at 127 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd1a1301-44a1-408a-9edc-d57199888e6c")
+		)
+		(pin "MAX1" input
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f888ea1-1797-4f75-8576-6f81ec6f1573")
+		)
+		(pin "MIN1" input
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66ef3b38-d38a-43d4-82cf-435c32056763")
+		)
+		(pin "M1CS" input
+			(at 127 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a2158cc-c724-40c2-94f6-dea5e23ccac6")
+		)
+		(pin "M2CS" input
+			(at 127 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06080e4e-f516-48f4-b6f2-bd9d4a8db608")
+		)
+		(pin "M2ENA{slash}B" input
+			(at 127 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41eb1a17-72a9-4868-92c8-b23727a7bae4")
+		)
+		(pin "M2INB" input
+			(at 127 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa5d3c42-e75b-4f9c-9fe2-adc057bce2f6")
+		)
+		(pin "M2INA" input
+			(at 127 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c31d8342-855b-40ad-8fcd-515182b4c830")
+		)
+		(pin "M2PWM" input
+			(at 127 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f63f4b96-887b-48c3-ae8c-cadb32d8f5cd")
+		)
+		(pin "MAX2" input
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b698b40e-6dfd-431a-9a04-3d8b4d8991ed")
+		)
+		(pin "MIN2" input
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5aaad523-d26e-4759-b79a-9e3e57f3cf26")
+		)
+		(pin "5V_PG" input
+			(at 152.4 127 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5bbcf012-686e-4909-8ce6-ec225375126d")
+		)
+		(pin "3.3V_PG" input
+			(at 154.94 127 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47a5b5b7-e816-4535-b914-3e756004999e")
 		)
 		(instances
 			(project "recline-actuator-controller"
@@ -73,6 +613,46 @@
 				(justify left top)
 			)
 		)
+		(pin "MIN2" input
+			(at 190.5 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d85c367a-a5c7-4769-8e82-bb4c45b2fe9a")
+		)
+		(pin "MAX2" input
+			(at 190.5 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcd8182c-f1ff-4df3-8daa-87efcd3658b1")
+		)
+		(pin "MAX1" input
+			(at 190.5 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a4582f8-4f20-4730-a70f-c243a420b8c8")
+		)
+		(pin "MIN1" input
+			(at 190.5 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe5a61aa-4067-4a1e-b26c-0404dede4cd1")
+		)
 		(instances
 			(project "recline-actuator-controller"
 				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71"
@@ -110,6 +690,56 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "AIR_COMP" input
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43bb329b-bbb3-4581-8fea-3129a6cdfc8e")
+		)
+		(pin "SOLENOID_0" input
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90b40a2c-4665-4b2d-83a9-af01e918b9c9")
+		)
+		(pin "SOLENOID_1" input
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28b766f6-23f9-4223-8439-125b888a5dcb")
+		)
+		(pin "SOLENOID_2" input
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12c9ea09-9c47-40bc-abd9-f9cce1aae16b")
+		)
+		(pin "SOLENOID_3" input
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8433e99-0ca6-45f0-94e1-3f07b9e6e0b8")
 		)
 		(instances
 			(project "recline-actuator-controller"
@@ -247,6 +877,26 @@
 				(justify left top)
 			)
 		)
+		(pin "3.3V_PG" input
+			(at 154.94 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "716dc3f5-9778-454c-a8a8-8658e16c7fa8")
+		)
+		(pin "5V_PG" input
+			(at 152.4 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a29b3958-478e-4a21-bfb6-91056ce15402")
+		)
 		(instances
 			(project "recline-actuator-controller"
 				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71"
@@ -284,6 +934,106 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "M1ENA{slash}B" input
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "482ca54f-af5b-4e6d-8234-8fccb69c0612")
+		)
+		(pin "M1INA" input
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd36709a-cd75-44ae-90e5-0ffc7b8b3802")
+		)
+		(pin "M1INB" input
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20e2835b-4c87-4dfb-876b-129d05b25801")
+		)
+		(pin "M1PWM" input
+			(at 101.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fb59965-9d0f-4cb6-8d4d-30273f98ee38")
+		)
+		(pin "M1CS" input
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78596fac-559a-4691-b1ba-d4ca02826d1b")
+		)
+		(pin "M2CS" input
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a1b76672-e852-42ff-bf4b-7afeb5fd2f0b")
+		)
+		(pin "M2INB" input
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83dac4fd-4fa5-4746-92ad-57661086b3dc")
+		)
+		(pin "M2PWM" input
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a0e26981-fac6-4cfd-97a3-e50084cd1b26")
+		)
+		(pin "M2ENA{slash}B" input
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b89f6b93-74ad-41e4-9d3b-7b90244175d9")
+		)
+		(pin "M2INA" input
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85153e78-8bc7-4f13-87e7-73c4e9adce03")
 		)
 		(instances
 			(project "recline-actuator-controller"

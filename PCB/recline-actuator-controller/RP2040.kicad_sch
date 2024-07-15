@@ -6908,6 +6908,18 @@
 		)
 		(uuid "ffb3fa2b-6314-4e66-beda-330d505357cb")
 	)
+	(text "MCU - RP2040\n"
+		(exclude_from_sim no)
+		(at 143.256 26.924 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "1a047153-fe58-4fee-aeea-02a1988d9e41")
+	)
 	(label "QSPI_SD3"
 		(at 71.12 125.73 0)
 		(fields_autoplaced yes)
@@ -7064,6 +7076,54 @@
 		)
 		(uuid "05cce72b-a1f2-4e18-b7bf-bb6639f7dd2d")
 	)
+	(hierarchical_label "MIN2"
+		(shape input)
+		(at 234.95 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c0d0f81-a722-4884-ba1d-294db9f89650")
+	)
+	(hierarchical_label "M1CS"
+		(shape input)
+		(at 254 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c5cf60f-c28c-4700-8a72-b0b93b499c85")
+	)
+	(hierarchical_label "SOLENOID_2"
+		(shape input)
+		(at 254 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e406c10-bc8e-465c-a51b-d15a55539103")
+	)
+	(hierarchical_label "M2ENA{slash}B"
+		(shape input)
+		(at 254 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1923052c-6727-46f7-a118-9b1b961ece51")
+	)
 	(hierarchical_label "RS485_RX_EN"
 		(shape output)
 		(at 254 88.9 0)
@@ -7088,6 +7148,90 @@
 		)
 		(uuid "305ff3ac-c603-4663-b1a0-e5b11e3db35b")
 	)
+	(hierarchical_label "SOLENOID_3"
+		(shape input)
+		(at 254 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31001590-4c7d-4b8a-bf3d-2d3506a53533")
+	)
+	(hierarchical_label "M2CS"
+		(shape input)
+		(at 254 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "333062f8-6ac0-428c-a741-8172a270e56c")
+	)
+	(hierarchical_label "SOLENOID_1"
+		(shape input)
+		(at 254 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41b92fb0-5a4e-4ee9-9fdd-b0f422a89ffd")
+	)
+	(hierarchical_label "3.3V_PG"
+		(shape input)
+		(at 204.47 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45961227-27cd-4cb0-be40-ef852bf097db")
+	)
+	(hierarchical_label "M1INA"
+		(shape input)
+		(at 254 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4af3c802-fa8c-4a0b-a3ad-8e3518736a72")
+	)
+	(hierarchical_label "M1ENA{slash}B"
+		(shape input)
+		(at 254 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e2bd4e7-3ea6-4696-b25b-a89c3a9b3a5e")
+	)
+	(hierarchical_label "M1PWM"
+		(shape input)
+		(at 254 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c6ab7a5-7c84-4dd6-8758-37d4050e7096")
+	)
 	(hierarchical_label "RS485_TXD"
 		(shape output)
 		(at 254 81.28 0)
@@ -7100,6 +7244,90 @@
 		)
 		(uuid "74a59549-b46b-4a42-8388-f972ddcaa0f2")
 	)
+	(hierarchical_label "5V_PG"
+		(shape input)
+		(at 204.47 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84d4f95a-99ce-4734-881a-98354c73c96b")
+	)
+	(hierarchical_label "AIR_COMP"
+		(shape input)
+		(at 254 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8687e3ef-1713-4659-af31-5b239b296700")
+	)
+	(hierarchical_label "MIN1"
+		(shape input)
+		(at 234.95 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "907646fa-e93b-4d45-a431-ea109a3f50ee")
+	)
+	(hierarchical_label "MAX2"
+		(shape input)
+		(at 234.95 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ea6b417-fc68-46fa-9448-c0cf254418a3")
+	)
+	(hierarchical_label "M2PWM"
+		(shape input)
+		(at 254 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9f6f348-3225-46cb-8d1b-4ac209e4c7fe")
+	)
+	(hierarchical_label "MAX1"
+		(shape input)
+		(at 234.95 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa00f86f-8edd-4243-9c0d-2c60d5d97e86")
+	)
+	(hierarchical_label "SOLENOID_0"
+		(shape input)
+		(at 254 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4cf551c-15a2-495e-b369-90fd1078e69f")
+	)
 	(hierarchical_label "RS485_RXD"
 		(shape input)
 		(at 254 83.82 0)
@@ -7111,6 +7339,42 @@
 			(justify left)
 		)
 		(uuid "da6a7c5d-a469-45e6-99df-4ba50ba528dd")
+	)
+	(hierarchical_label "M2INA"
+		(shape input)
+		(at 254 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddcf09ce-63ee-47b6-afda-b45466b0edcf")
+	)
+	(hierarchical_label "M1INB"
+		(shape input)
+		(at 254 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f88855f3-c37f-49dd-af9d-4fb0d640b128")
+	)
+	(hierarchical_label "M2INB"
+		(shape input)
+		(at 254 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f992d8b9-fe52-4521-bd29-fc2e23f1e332")
 	)
 	(symbol
 		(lib_id "power:GND")
