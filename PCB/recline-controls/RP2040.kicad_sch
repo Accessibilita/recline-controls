@@ -7040,6 +7040,78 @@
 		)
 		(uuid "c4a740b1-bbd4-4469-88a1-82071849093e")
 	)
+	(hierarchical_label "7SEG1"
+		(shape input)
+		(at 224.79 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0081b19c-dc12-40a5-8ae0-79c06deb4784")
+	)
+	(hierarchical_label "BUTTON1"
+		(shape input)
+		(at 254 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ba06220-21d7-4cdd-9e34-1421fdb56b07")
+	)
+	(hierarchical_label "7SEG3"
+		(shape input)
+		(at 224.79 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f506896-c268-4b98-84e1-3d9e6098103e")
+	)
+	(hierarchical_label "ROCKER3_A"
+		(shape input)
+		(at 254 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2391bf9e-4403-4cb8-887f-c34d2d0f8aeb")
+	)
+	(hierarchical_label "5V_PG"
+		(shape input)
+		(at 254 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2450c9aa-768d-46ac-b4e1-5c09e473baa0")
+	)
+	(hierarchical_label "7SEG6"
+		(shape input)
+		(at 224.79 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f5397ac-4611-4f4a-acec-56974c783c55")
+	)
 	(hierarchical_label "RS485_RXD"
 		(shape input)
 		(at 254 58.42 0)
@@ -7051,6 +7123,30 @@
 			(justify left)
 		)
 		(uuid "45f70f8a-5f53-4843-ae0a-56d5e1a334b2")
+	)
+	(hierarchical_label "7SEG4"
+		(shape input)
+		(at 224.79 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ce2a704-4473-4130-a172-04f98fc10991")
+	)
+	(hierarchical_label "ROCKER2_A"
+		(shape input)
+		(at 254 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5aefae73-08a9-4e86-8e64-aa94cea4c7a2")
 	)
 	(hierarchical_label "RS485_TX_LED"
 		(shape input)
@@ -7064,6 +7160,18 @@
 		)
 		(uuid "613f113a-2c0d-42bb-9f58-f82775b0a0a0")
 	)
+	(hierarchical_label "ROCKER1_A"
+		(shape input)
+		(at 254 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "688ee870-65ff-44e8-a5bd-4d820e6eeb29")
+	)
 	(hierarchical_label "RS485_TXD"
 		(shape output)
 		(at 254 55.88 0)
@@ -7075,6 +7183,42 @@
 			(justify left)
 		)
 		(uuid "6ad53eda-b554-4091-82bb-d33ff98a9eef")
+	)
+	(hierarchical_label "7SEG0"
+		(shape input)
+		(at 224.79 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d8db00f-183b-4c6d-86af-a0ad7d861e01")
+	)
+	(hierarchical_label "7SEG5"
+		(shape input)
+		(at 224.79 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70e0016b-2f12-4dc3-adce-862839a3f3a1")
+	)
+	(hierarchical_label "BUTTON3"
+		(shape input)
+		(at 254 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73bc6684-e5a3-4ae5-9384-e4f085b25ac5")
 	)
 	(hierarchical_label "RS485_TX_EN"
 		(shape output)
@@ -7088,6 +7232,30 @@
 		)
 		(uuid "74affd2b-e538-4021-a667-c00d3941bf69")
 	)
+	(hierarchical_label "7SEG2"
+		(shape input)
+		(at 224.79 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "897c2116-e137-42a0-9fbe-8c9c5570dfbe")
+	)
+	(hierarchical_label "ROCKER2_B"
+		(shape input)
+		(at 254 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f7f25e3-6db2-4ca2-914c-378648b53aae")
+	)
 	(hierarchical_label "RS485_RX_EN"
 		(shape output)
 		(at 254 63.5 0)
@@ -7099,6 +7267,66 @@
 			(justify left)
 		)
 		(uuid "b0473917-e268-4eb8-a5aa-69933aa24b4b")
+	)
+	(hierarchical_label "ROCKER3_B"
+		(shape input)
+		(at 254 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be7bd393-dc5d-4384-a24c-1cf5faa00f3f")
+	)
+	(hierarchical_label "ROCKER1_B"
+		(shape input)
+		(at 254 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c589da14-1dd1-43a1-afeb-f2edd03ddde3")
+	)
+	(hierarchical_label "3.3V_PG"
+		(shape input)
+		(at 254 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb8da779-817a-417a-8a0c-9e10f7961d28")
+	)
+	(hierarchical_label "7SEG7"
+		(shape input)
+		(at 224.79 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db6d954b-a423-4e04-b2f4-3b5268c0b937")
+	)
+	(hierarchical_label "BUTTON2"
+		(shape input)
+		(at 254 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e003b99b-52c4-4148-824a-e4f28db841a5")
 	)
 	(hierarchical_label "RS485_RX_LED"
 		(shape input)

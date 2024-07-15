@@ -5,9 +5,259 @@
 	(uuid "e29618a9-4386-4e89-b18e-ffca5bc42d97")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ff1932-d6b2-4f40-b353-a8bc6174fcab")
+	)
+	(wire
+		(pts
+			(xy 165.1 124.46) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45258ebc-5be4-4111-a273-00233f5397be")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b9a27b-8d74-4e29-91d7-a195bc7f335a")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c9bd82-fe61-48a4-a017-c3c32d981e0a")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff73549-81c7-4a3e-a2a2-5625938d9c7d")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 190.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694759a8-77bb-4dc5-81fd-4991b67c51d0")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.92) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69de5765-cb17-4c05-8086-4e4db83280b3")
+	)
+	(wire
+		(pts
+			(xy 165.1 54.61) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3719fc-a633-4f2b-8839-9e716e7302c9")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bf141f-772e-4f54-90ff-8be7a96a27a9")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7619730d-83d7-42cf-a0fa-f9df8e45ce94")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c36452a-0b8e-46c4-8446-60d021c41819")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5de9c8-4c06-4453-9dd5-2a9cfaeb2e3e")
+	)
+	(wire
+		(pts
+			(xy 165.1 62.23) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957ed0af-ed59-412d-b19d-561385783991")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 127 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9660a728-00f6-472e-b098-ddeb409daf1d")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 190.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be9eb5e-b0bf-4f7a-9780-be01ae5e154b")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe0da1f-62f6-4c6f-aaa3-d92cad60d67e")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac4abc8-39e2-4b9f-b624-92ccad05cfd6")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 190.5 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed59e4a-b753-4884-92f3-bea25371a497")
+	)
+	(wire
+		(pts
+			(xy 114.3 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ff2247-9d92-4895-b405-92b4ef8427d3")
+	)
+	(wire
+		(pts
+			(xy 165.1 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5e9183-ef01-4fc5-b0e0-afce1ce11d22")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fb5049-4153-4985-868d-e12b813f4fb8")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2da77ac-b88a-4484-a18a-37d5c94e06d0")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9514069-e9ca-428e-b126-20ef68a1f8a1")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe17a8b3-c6b5-4324-828f-56e9c5de6bec")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2eed08-0ed4-41ec-aecb-3a08e30d860b")
+	)
 	(sheet
-		(at 190.5 88.9)
-		(size 38.1 25.4)
+		(at 190.5 96.52)
+		(size 38.1 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +268,7 @@
 		)
 		(uuid "03c032f6-d9ec-4cb0-8301-df4c86f9d6f2")
 		(property "Sheetname" "Controls and Switches"
-			(at 190.5 88.1884 0)
+			(at 190.5 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,13 +277,103 @@
 			)
 		)
 		(property "Sheetfile" "Switches.kicad_sch"
-			(at 190.5 114.8846 0)
+			(at 190.5 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "ROCKER1_B" input
+			(at 190.5 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce6b8914-e01e-4f6d-ada6-8ee4d0de3229")
+		)
+		(pin "ROCKER2_B" input
+			(at 190.5 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7e5dc0d-c1a0-46f3-983b-bc24e880072f")
+		)
+		(pin "ROCKER1_A" input
+			(at 190.5 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae4b1398-36b8-4b6f-a4d0-e4ac24d9f2b3")
+		)
+		(pin "ROCKER2_A" input
+			(at 190.5 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8dce99a2-c9e5-4b09-98aa-cc7cd3809696")
+		)
+		(pin "ROCKER3_B" input
+			(at 190.5 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce5ed688-f7c2-497a-96cb-4a9be0d3fe15")
+		)
+		(pin "ROCKER3_A" input
+			(at 190.5 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec6e4e5e-fe5c-48ee-9469-5bb9f30ce2df")
+		)
+		(pin "BUTTON2" input
+			(at 190.5 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d56ac78a-1c46-48b3-b8b2-2110f4149d39")
+		)
+		(pin "BUTTON3" input
+			(at 190.5 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32133fbe-fb2d-48f2-a219-430e5f05f601")
+		)
+		(pin "BUTTON1" input
+			(at 190.5 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "686011c9-68c9-4676-b91e-094caf643e16")
 		)
 		(instances
 			(project "recline-controls"
@@ -44,8 +384,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 38.1)
-		(size 38.1 38.1)
+		(at 127 50.8)
+		(size 38.1 76.2)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +396,7 @@
 		)
 		(uuid "4f78fe3d-4cd4-441a-a603-f2bfa84ad956")
 		(property "Sheetname" "RP2040"
-			(at 76.2 37.3884 0)
+			(at 127 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +405,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 76.2 76.7846 0)
+			(at 127 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +414,7 @@
 			)
 		)
 		(pin "RS485_RX_LED" input
-			(at 114.3 46.99 0)
+			(at 165.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +424,7 @@
 			(uuid "7a0d1755-fa62-437d-afa7-543d62c41469")
 		)
 		(pin "RS485_TXD" output
-			(at 114.3 52.07 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +434,7 @@
 			(uuid "f3500bf1-c335-4bd2-9de6-74e9e218af37")
 		)
 		(pin "RS485_TX_EN" output
-			(at 114.3 54.61 0)
+			(at 165.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +444,7 @@
 			(uuid "75004a2a-172c-4075-9d8d-4ced817f5f0e")
 		)
 		(pin "RS485_TX_LED" input
-			(at 114.3 49.53 0)
+			(at 165.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +454,7 @@
 			(uuid "bd89dd63-ebf5-4084-9b89-bc3c6f34d087")
 		)
 		(pin "RS485_RX_EN" output
-			(at 114.3 57.15 0)
+			(at 165.1 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +464,7 @@
 			(uuid "0a382720-367b-422e-8f6e-2892f9a4495b")
 		)
 		(pin "RS485_RXD" input
-			(at 114.3 59.69 0)
+			(at 165.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,6 +472,196 @@
 				(justify right)
 			)
 			(uuid "b33f2859-772f-4b98-a729-38630812acf3")
+		)
+		(pin "5V_PG" input
+			(at 127 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5c90e34-2332-44ff-a1a2-bc62a711a2a1")
+		)
+		(pin "3.3V_PG" input
+			(at 127 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c2aa228-3ce8-4212-94fd-16c1b37fa279")
+		)
+		(pin "ROCKER1_A" input
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c31d1c55-e7ba-4f82-b3e0-2121be38eb8c")
+		)
+		(pin "ROCKER2_A" input
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b074fef-114c-4551-9d56-3fefc1fe8d72")
+		)
+		(pin "ROCKER2_B" input
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1308450d-cdc0-4614-afde-093a40f4bbe6")
+		)
+		(pin "ROCKER1_B" input
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e91d51fe-e093-47f4-b9f9-73883768c20e")
+		)
+		(pin "BUTTON2" input
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46d05784-af9d-4828-b7df-f548dc4986ce")
+		)
+		(pin "BUTTON1" input
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5cca057-db67-49a2-8854-a0a4690a8896")
+		)
+		(pin "ROCKER3_B" input
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72f399e6-d01c-4984-9715-6e6c1bacbde4")
+		)
+		(pin "ROCKER3_A" input
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51cf79a0-cad1-4c4e-9fde-b51533fdbd7f")
+		)
+		(pin "BUTTON3" input
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f96459f4-a24a-409d-bfc3-24d121a59eb3")
+		)
+		(pin "7SEG4" input
+			(at 127 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5365df03-2d2a-425a-86d8-8367804a59ec")
+		)
+		(pin "7SEG2" input
+			(at 127 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e87d7b1-15aa-44be-95c8-b0c88da1a245")
+		)
+		(pin "7SEG1" input
+			(at 127 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34e7b61e-1a69-42e1-b65b-cbbcbff221d9")
+		)
+		(pin "7SEG5" input
+			(at 127 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4903f5a1-4fd0-4469-bef6-806de09ba28b")
+		)
+		(pin "7SEG3" input
+			(at 127 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e423788e-4e31-476f-9baf-91adfb6f9c8a")
+		)
+		(pin "7SEG6" input
+			(at 127 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b21244b-1c69-4fc7-aa4b-4321831355c8")
+		)
+		(pin "7SEG7" input
+			(at 127 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2e39811-13af-4270-9b5b-ac3fe141a738")
+		)
+		(pin "7SEG0" input
+			(at 127 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83fdd73b-b313-45d0-abb1-6d16f057daee")
 		)
 		(instances
 			(project "recline-controls"
@@ -142,7 +672,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 88.9)
+		(at 76.2 50.8)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -154,7 +684,7 @@
 		)
 		(uuid "84696a81-4303-4dc9-95d6-8f2833f496ab")
 		(property "Sheetname" "7 Segment Display"
-			(at 139.7 88.1884 0)
+			(at 76.2 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,13 +693,93 @@
 			)
 		)
 		(property "Sheetfile" "Display.kicad_sch"
-			(at 139.7 114.8846 0)
+			(at 76.2 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "7SEG5" input
+			(at 114.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c377d58-b613-4619-ae34-c70cf4fdf453")
+		)
+		(pin "7SEG2" input
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79c09c68-9719-41d7-a4c4-c372eb776546")
+		)
+		(pin "7SEG1" input
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1254a775-f0d4-46bf-9ef8-3de398ced1fb")
+		)
+		(pin "7SEG3" input
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67b5ae22-a6bd-42e2-bc21-91e6eaeea28a")
+		)
+		(pin "7SEG7" input
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01058bd1-977b-4f69-88b0-c813688f71d5")
+		)
+		(pin "7SEG4" input
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a401018d-9205-4014-a5eb-60d2052a988e")
+		)
+		(pin "7SEG6" input
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02ebd90f-d27e-46ba-a08e-4882d46c875a")
+		)
+		(pin "7SEG0" input
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15b17ed9-c328-491b-a41e-a042c075fd8d")
 		)
 		(instances
 			(project "recline-controls"
@@ -180,7 +790,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 38.1)
+		(at 190.5 50.8)
 		(size 38.1 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -192,7 +802,7 @@
 		)
 		(uuid "c015e9f1-b0fe-4071-88b9-a5f7158e9ed8")
 		(property "Sheetname" "RS485 Transceiver"
-			(at 139.7 37.3884 0)
+			(at 190.5 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,7 +811,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 139.7 76.7846 0)
+			(at 190.5 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,7 +820,7 @@
 			)
 		)
 		(pin "RS485_TX_LED" input
-			(at 139.7 44.45 180)
+			(at 190.5 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +830,7 @@
 			(uuid "d53a7dc6-d244-4e82-b6b6-a1ef72f09f72")
 		)
 		(pin "RS485_RX_LED" input
-			(at 139.7 46.99 180)
+			(at 190.5 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,7 +840,7 @@
 			(uuid "755ee75e-dcbb-4d6e-9347-e2417b88cc03")
 		)
 		(pin "RS485_RXD" output
-			(at 139.7 49.53 180)
+			(at 190.5 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -240,7 +850,7 @@
 			(uuid "fdf452a9-af74-44a7-83af-3f4f11ed9512")
 		)
 		(pin "RS485_TX_EN" input
-			(at 139.7 54.61 180)
+			(at 190.5 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +860,7 @@
 			(uuid "e2e15538-81fc-4e10-8886-354d657ae906")
 		)
 		(pin "RS485_TXD" input
-			(at 139.7 52.07 180)
+			(at 190.5 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,7 +870,7 @@
 			(uuid "1499f9cc-505f-491c-9f59-911941508a19")
 		)
 		(pin "RS485_RX_EN" input
-			(at 139.7 57.15 180)
+			(at 190.5 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +888,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 88.9)
+		(at 76.2 101.6)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -290,7 +900,7 @@
 		)
 		(uuid "ffdb6a6a-bf4e-425d-9eb8-ac5ba3c4a7b2")
 		(property "Sheetname" "Power"
-			(at 76.2 88.1884 0)
+			(at 76.2 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +909,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 76.2 114.8846 0)
+			(at 76.2 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,22 +918,22 @@
 			)
 		)
 		(pin "3.3V_PG" input
-			(at 76.2 93.98 180)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "05b76a00-15c0-4f95-bddd-7907c935f49c")
 		)
 		(pin "5V_PG" input
-			(at 76.2 96.52 180)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "a3978c4c-dadf-4d73-9d39-4ff8a5a79b83")
 		)
