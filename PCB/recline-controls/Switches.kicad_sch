@@ -1881,7 +1881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Pin_Header_Angled_1x02_Pitch2.54mm"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -3360,7 +3360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Pin_Header_Angled_1x02_Pitch2.54mm"
 			(at 180.34 127 0)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Pin_Header_Angled_1x02_Pitch2.54mm"
 			(at 180.34 139.7 0)
 			(effects
 				(font

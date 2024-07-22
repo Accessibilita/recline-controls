@@ -5437,6 +5437,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_names
@@ -7644,6 +7746,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fb391fb-129d-427e-b170-7bb9d8547a4d")
+		(property "Reference" "H4"
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Holes_Fasteners:RPI_HAT_HOLE"
+			(at 77.47 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24604b59-3848-42c7-b564-4b5e06f5087b")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU")
 		(at 114.3 31.75 90)
 		(unit 1)
@@ -8943,7 +9112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "growbox-KiCAD-Capacitors:C0402"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0402"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -9228,7 +9397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "growbox-KiCAD-Capacitors:C0402"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0402"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -9481,6 +9650,73 @@
 			(project "recline-controls"
 				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4def6aa8-dda7-4e77-8c28-204e18601373")
+		(property "Reference" "H3"
+			(at 80.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Holes_Fasteners:RPI_HAT_HOLE"
+			(at 77.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "511bea45-07d0-4884-9105-119a363f0c28")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9764,6 +10000,73 @@
 			(project "recline-controls"
 				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b601a60-70e3-4024-ab46-39c07aa0df5a")
+		(property "Reference" "H2"
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Holes_Fasteners:RPI_HAT_HOLE"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082c2dbb-698b-4bbc-826c-e3d935fe132c")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12292,7 +12595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Pin_Header_Angled_1x03_Pitch2.54mm"
 			(at 64.77 114.3 0)
 			(effects
 				(font
@@ -15675,6 +15978,73 @@
 			(project "recline-controls"
 				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 77.47 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eec562b2-f5c6-4f94-b1c4-a3c7ae84fbe5")
+		(property "Reference" "H1"
+			(at 80.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Holes_Fasteners:RPI_HAT_HOLE"
+			(at 77.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e31499e-15ff-4269-8395-621325faa18d")
+		)
+		(instances
+			(project "recline-controls"
+				(path "/e29618a9-4386-4e89-b18e-ffca5bc42d97/4f78fe3d-4cd4-441a-a603-f2bfa84ad956"
+					(reference "H1")
 					(unit 1)
 				)
 			)
