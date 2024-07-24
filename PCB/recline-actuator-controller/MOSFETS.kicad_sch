@@ -5358,10 +5358,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23ddc888-b2fd-419d-a24f-f8391fb80d74")
 		(property "Reference" "D5"
-			(at 91.44 83.5024 90)
+			(at 84.074 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5603,7 @@
 			)
 		)
 		(property "_Value_" "B240A-13-F"
-			(at 91.44 86.0424 90)
+			(at 73.914 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,10 +6827,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50c18808-3022-4156-b002-f6783588a669")
 		(property "Reference" "D7"
-			(at 91.44 121.6024 90)
+			(at 84.328 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7072,7 @@
 			)
 		)
 		(property "_Value_" "B240A-13-F"
-			(at 91.44 124.1424 90)
+			(at 73.914 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,10 +10520,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a11b82e2-a91e-4150-b328-7095c1c8dd1c")
 		(property "Reference" "D4"
-			(at 91.44 45.4024 90)
+			(at 85.09 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +10765,7 @@
 			)
 		)
 		(property "_Value_" "B240A-13-F"
-			(at 91.44 47.9424 90)
+			(at 73.914 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13238,10 +13235,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2b2134c-ba11-4b91-a3a8-ce75cfd807a7")
 		(property "Reference" "D9"
-			(at 91.44 159.7024 90)
+			(at 84.074 159.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13484,7 +13480,7 @@
 			)
 		)
 		(property "_Value_" "B240A-13-F"
-			(at 91.44 162.2424 90)
+			(at 73.66 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
