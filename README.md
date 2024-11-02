@@ -47,6 +47,14 @@ Side D
 
 ## Recline Actuator Control Board
 
+The Recline Actuator Control board manages the high-voltage signals and controls the mechanical components involved in adjusting the wheelchair's recline position and pneumatic suspension. Specifically, it:
+
+- Controls Actuators and Solenoids: It interfaces with and controls the actuators and solenoids that adjust the recline position.
+- Manages the Air Compressor: It controls the air compressor for the chair's pneumatic suspension.
+- Receives Commands via RS485: The board receives commands from the Recline Control board through an RS485 serial communication link.
+
+In summary, this board serves as the power and actuator management hub, ensuring precise, responsive adjustments to the chair's recline and suspension functions based on user commands.
+
 ### Specs:
 - RP2040 Microcontroller
 - Pololu DCDC Switching Regulator Modules for 3.3V and 5V Power
