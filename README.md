@@ -15,6 +15,8 @@ The system is split across two printed circuit boards for a couple of reasons, t
 
 The other board, called the Recline Control board, functions as the user interface and control center. Here's what it does:
 
+![Recline Control Board 2D Render](img/Recline_Controller_2D.jpg)
+
   Acts as the Human-Machine Interface (HMI): This board is where the user interacts with the system, using buttons and rocker switches to adjust the recline position of the chair.
   Processes Low-Voltage Signals: It handles low-voltage signals from the user input controls, like switches and buttons, to avoid issues with voltage drop.
   Displays Information: Includes a 7-segment display to show information, such as the recline position, which requires low forward voltage and needs to be close to the control board to avoid voltage drops.
@@ -58,6 +60,8 @@ Side D
 ## Recline Actuator Control Board
 
 The Recline Actuator Control board manages the high-voltage signals and controls the mechanical components involved in adjusting the wheelchair's recline position and pneumatic suspension. Specifically, it:
+
+![Recline Actuator Control Board 2D Render](img/Recline_Actuator_Controller_2D.jpg)
 
 - Controls Actuators and Solenoids: It interfaces with and controls the actuators and solenoids that adjust the recline position.
 - Manages the Air Compressor: It controls the air compressor for the chair's pneumatic suspension.
