@@ -167,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 97.79) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a431fc08-ebab-4a93-93d5-eb09f90b0dca")
+	)
+	(wire
+		(pts
 			(xy 114.3 69.85) (xy 127 69.85)
 		)
 		(stroke
@@ -374,6 +384,16 @@
 				(justify left)
 			)
 			(uuid "686011c9-68c9-4676-b91e-094caf643e16")
+		)
+		(pin "AUXBUTTON" input
+			(at 190.5 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "16d6106e-a737-4e13-b64d-b4081597f4f9")
 		)
 		(instances
 			(project "recline-controls"
@@ -662,6 +682,16 @@
 				(justify left)
 			)
 			(uuid "83fdd73b-b313-45d0-abb1-6d16f057daee")
+		)
+		(pin "AUXBUTTON" input
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50ac7eac-13b0-43bf-be86-7bb946e7ce74")
 		)
 		(instances
 			(project "recline-controls"

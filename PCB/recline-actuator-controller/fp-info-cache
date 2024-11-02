@@ -1,4 +1,4 @@
-24437823035642450
+24448845575936846
 AVR-KiCAD-Lib-Battery-Holders
 BK-912
 
@@ -573,6 +573,13 @@ PJRAN2X1U01AUX
 0
 6
 6
+AVR-KiCAD-Lib-Connectors
+CONN10_D05-RA-BK_SUL
+
+SBH11-PBPC-D05-RA-BK 
+0
+10
+10
 AVR-KiCAD-Lib-Connectors
 CONN14_111446_WRE
 
@@ -1204,6 +1211,13 @@ RadialLED_WRE
 2
 2
 AVR-KiCAD-Lib-Diodes
+SMAJ
+
+
+0
+2
+2
+AVR-KiCAD-Lib-Diodes
 SMAJ30CA
 
 
@@ -1214,6 +1228,27 @@ AVR-KiCAD-Lib-Diodes
 SMDJ15CA
 
 
+0
+2
+2
+AVR-KiCAD-Lib-Diodes
+SOD-923_ONS
+
+ESD9X3.3ST5G 
+0
+2
+2
+AVR-KiCAD-Lib-Diodes
+SOD-923_ONS-L
+
+ESD9X3.3ST5G 
+0
+2
+2
+AVR-KiCAD-Lib-Diodes
+SOD-923_ONS-M
+
+ESD9X3.3ST5G 
 0
 2
 2
@@ -1238,6 +1273,20 @@ TVS0500DRVR
 0
 9
 7
+AVR-KiCAD-Lib-Fuse-Holders
+3555-2
+
+
+0
+4
+2
+AVR-KiCAD-Lib-Fuse-Holders
+FUSE_3557-2
+
+
+0
+4
+2
 AVR-KiCAD-Lib-Holes_Fasteners
 2.54mm_PLT_Hole
 
@@ -2449,13 +2498,6 @@ AVR-KiCAD-Lib-Special
 0
 0
 0
-AVR-KiCAD-Lib-Special
-3555-2
-
-
-0
-4
-2
 AVR-KiCAD-Lib-Special
 1843091
 

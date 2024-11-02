@@ -1,0 +1,19 @@
+recline controls
+- two motor - linear actuator - 9A/24V
+- endstops for max and min position 
+- airpump mosfet - 15A/24V
+- x4 solenoids - mosfets 
+- airbags are the tank 
+- functions only one at a time 
+- 7 segment
+	+ 1 tilt
+	+ 2 recline
+	+ 3 front airbags
+	+ 4 rear airbags 
+- differentuial signaling for motir driver
+- mosfets and hbridge on separate
+
+recline control motor board
+- h-bridge two motor - linear actuator - 9A/24V
+- mosfets airpump mosfet - 15A/24V
+- logic sigals received by differential signalers 
