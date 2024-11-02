@@ -13,6 +13,16 @@ The system is split across two printed circuit boards for a couple of reasons, t
 
 ## Recline Control Board 
 
+The other board, called the Recline Control board, functions as the user interface and control center. Here's what it does:
+
+  Acts as the Human-Machine Interface (HMI): This board is where the user interacts with the system, using buttons and rocker switches to adjust the recline position of the chair.
+  Processes Low-Voltage Signals: It handles low-voltage signals from the user input controls, like switches and buttons, to avoid issues with voltage drop.
+  Displays Information: Includes a 7-segment display to show information, such as the recline position, which requires low forward voltage and needs to be close to the control board to avoid voltage drops.
+  Sends Commands via RS485: It sends user commands to the Recline Actuator Control board through RS485 serial communication, which then controls the actuators and other high-voltage components.
+  Mounted for User Access: It’s mounted on the armrest of the user's dominant hand, providing easy access for adjustments.
+
+In essence, the Recline Control board is the user-friendly interface, interpreting user input and communicating these commands to the Recline Actuator Control board via RS485 to execute the recline and suspension adjustments.
+
 ### Specs:
 - RP2040 Microcontroller
 - Pololu DCDC Switching Regulator Modules for 3.3V and 5V Power
