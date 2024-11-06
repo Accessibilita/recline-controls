@@ -1,4 +1,4 @@
-# recline-controls
+# Open Source Wheel Chair Recline Control System
 ## Hardware project for open source wheel chair recline control electronics
 
 The Recline control system allows the wheel chair user to adjust the recline position of their chair at their leisrure. Its a complete electrical controls system with with safety in mind. The system is split across two piece of electrical hardware design as two separated printed circuit boards. The First board functions as the controller and human machine interface, the second board functions as an intelligent controller for the actuators, solenoids, and air compressor related to controlling the chair recline postion and the chair's pneumatic suspension.The human machine interface board is called the Reline Control board, and the actuator controller is called the Recline Actuator Control board. 
@@ -15,6 +15,8 @@ The system is split across two printed circuit boards for a couple of reasons, t
 
 The other board, called the Recline Control board, functions as the user interface and control center. Here's what it does:
 
+![Recline Control Board 2D Render](img/Recline_Controller_2D.jpg)
+
   Acts as the Human-Machine Interface (HMI): This board is where the user interacts with the system, using buttons and rocker switches to adjust the recline position of the chair.
   Processes Low-Voltage Signals: It handles low-voltage signals from the user input controls, like switches and buttons, to avoid issues with voltage drop.
   Displays Information: Includes a 7-segment display to show information, such as the recline position, which requires low forward voltage and needs to be close to the control board to avoid voltage drops.
@@ -29,6 +31,7 @@ In essence, the Recline Control board is the user-friendly interface, interpreti
 - Locking Molex connector for Rocker Switches and Buttons
 - RJ45 Connector for RS485 Signals 
 - Phoenix Contact high voltage connector for Power Input
+- Automotive Blade Fuse Carrier and Crowbar Circuit Protection
 
 ### 3D Renders:
 
@@ -36,28 +39,30 @@ Top
 ![Top](img/recline_hid_TOP.jpg)
 
 Bottom
-![Top](img/recline_hid_BOTTOM.jpg)
+![Bottom](img/recline_hid_BOTTOM.jpg)
 
 ISO
-![ISO1](img/recline_hid_iso.jpg)
+![ISO](img/recline_hid_iso.jpg)
 
 Side A
-![Top](img/recline_hid_SIDE_A.jpg)
+![Side A](img/recline_hid_SIDE_A.jpg)
 
 Side B
-![Top](img/recline_hid_SIDE_B.jpg)
+![Side B](img/recline_hid_SIDE_B.jpg)
 
 Side C
-![Top](img/recline_hid_SIDE_C.jpg)
+![Side C](img/recline_hid_SIDE_C.jpg)
 
 Side D
-![Top](img/recline_hid_SIDE_D.jpg)
+![Side D](img/recline_hid_SIDE_D.jpg)
 
 
 
 ## Recline Actuator Control Board
 
 The Recline Actuator Control board manages the high-voltage signals and controls the mechanical components involved in adjusting the wheelchair's recline position and pneumatic suspension. Specifically, it:
+
+![Recline Actuator Control Board 2D Render](img/Recline_Actuator_Controller_2D.jpg)
 
 - Controls Actuators and Solenoids: It interfaces with and controls the actuators and solenoids that adjust the recline position.
 - Manages the Air Compressor: It controls the air compressor for the chair's pneumatic suspension.
@@ -70,6 +75,7 @@ In summary, this board serves as the power and actuator management hub, ensuring
 - Pololu DCDC Switching Regulator Modules for 3.3V and 5V Power
 - RJ45 Connector for RS485 Signals 
 - Phoenix Contact high voltage connector for Power Input
+- Automotive Blade Fuse Carrier and Crowbar Circuit Protection
 - Phoenix Contact high voltage connectors for solenoids and DC Motors
 - x2 VNH5019 H-Bridges
 - 5 MOSFETS for controlling solenoids and air pump
@@ -83,16 +89,20 @@ Bottom
 ![Top](img/recline_actuator_BOTTOM.jpg)
 
 ISO
+![ISO 1](img/recline_actuator_ISO1.jpg)
 
+![ISO 2](img/recline_actuator_ISO2.jpg)
+
+![ISO 3](img/recline_actuator_ISO3.jpg)
 
 Side A
-![Top](img/recline_actuator_SIDE_A.jpg)
+![Side A](img/recline_actuator_SIDE_A.jpg)
 
 Side B
-![Top](img/recline_actuator_SIDE_B.jpg)
+![Side B](img/recline_actuator_SIDE_B.jpg)
 
 Side C
-![Top](img/recline_actuator_SIDE_C.jpg)
+![Side C](img/recline_actuator_SIDE_C.jpg)
 
 Side D
-![Top](img/recline_actuator_SIDE_D.jpg)
+![Side D](img/recline_actuator_SIDE_D.jpg)
