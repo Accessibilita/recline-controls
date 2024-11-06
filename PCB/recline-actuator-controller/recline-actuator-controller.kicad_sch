@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 101.6 109.22) (xy 127 109.22)
+			(xy 101.6 142.24) (xy 127 142.24)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.84) (xy 127 116.84)
+			(xy 101.6 149.86) (xy 127 149.86)
 		)
 		(stroke
 			(width 0)
@@ -27,13 +27,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 152.4 152.4)
+			(xy 152.4 127) (xy 152.4 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "289aebe7-d4cb-4cc6-b681-dec963f5b474")
+	)
+	(wire
+		(pts
+			(xy 154.94 127) (xy 154.94 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c27b5ba-3f05-47d3-992c-c490bdb87311")
 	)
 	(wire
 		(pts
@@ -107,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 127 114.3)
+			(xy 101.6 147.32) (xy 127 147.32)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 127 106.68)
+			(xy 101.6 139.7) (xy 127 139.7)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 106.68) (xy 190.5 106.68)
+			(xy 165.1 104.14) (xy 190.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -177,23 +187,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 118.11) (xy 190.5 118.11)
+			(xy 165.1 109.22) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3d752d1-69d7-425a-b620-f5ef5794fb74")
-	)
-	(wire
-		(pts
-			(xy 154.94 127) (xy 154.94 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca930a93-7009-41b4-970e-5460fbf1e1c7")
 	)
 	(wire
 		(pts
@@ -227,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 109.22) (xy 190.5 109.22)
+			(xy 165.1 106.68) (xy 190.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +257,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 127 111.76)
+			(xy 101.6 144.78) (xy 127 144.78)
 		)
 		(stroke
 			(width 0)
@@ -267,7 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 190.5 120.65)
+			(xy 165.1 111.76) (xy 190.5 111.76)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +277,7 @@
 	)
 	(sheet
 		(at 127 38.1)
-		(size 38.1 88.9)
+		(size 38.1 114.3)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -297,7 +297,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 127 127.5846 0)
+			(at 127 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -306,7 +306,7 @@
 			)
 		)
 		(pin "AIR_COMP" input
-			(at 127 106.68 180)
+			(at 127 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -316,7 +316,7 @@
 			(uuid "1853a366-25be-41cb-812b-4b1b38212b8f")
 		)
 		(pin "SOLENOID_0" input
-			(at 127 109.22 180)
+			(at 127 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +326,7 @@
 			(uuid "be527ef1-843b-4494-a93a-d45b0501913e")
 		)
 		(pin "SOLENOID_1" input
-			(at 127 111.76 180)
+			(at 127 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			(uuid "45253151-8aff-4189-bca6-d280757a106a")
 		)
 		(pin "SOLENOID_2" input
-			(at 127 114.3 180)
+			(at 127 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 			(uuid "ad516404-e570-46b7-af6f-e77ad541d31a")
 		)
 		(pin "SOLENOID_3" input
-			(at 127 116.84 180)
+			(at 127 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +456,7 @@
 			(uuid "bd1a1301-44a1-408a-9edc-d57199888e6c")
 		)
 		(pin "MAX1" input
-			(at 165.1 106.68 0)
+			(at 165.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			(uuid "0f888ea1-1797-4f75-8576-6f81ec6f1573")
 		)
 		(pin "MIN1" input
-			(at 165.1 109.22 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +536,7 @@
 			(uuid "f63f4b96-887b-48c3-ae8c-cadb32d8f5cd")
 		)
 		(pin "MAX2" input
-			(at 165.1 118.11 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +546,7 @@
 			(uuid "b698b40e-6dfd-431a-9a04-3d8b4d8991ed")
 		)
 		(pin "MIN2" input
-			(at 165.1 120.65 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +556,7 @@
 			(uuid "5aaad523-d26e-4759-b79a-9e3e57f3cf26")
 		)
 		(pin "5V_PG" input
-			(at 152.4 127 270)
+			(at 152.4 152.4 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +566,7 @@
 			(uuid "5bbcf012-686e-4909-8ce6-ec225375126d")
 		)
 		(pin "3.3V_PG" input
-			(at 154.94 127 270)
+			(at 154.94 152.4 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +614,7 @@
 			)
 		)
 		(pin "MIN2" input
-			(at 190.5 120.65 180)
+			(at 190.5 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +624,7 @@
 			(uuid "d85c367a-a5c7-4769-8e82-bb4c45b2fe9a")
 		)
 		(pin "MAX2" input
-			(at 190.5 118.11 180)
+			(at 190.5 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,7 +634,7 @@
 			(uuid "fcd8182c-f1ff-4df3-8daa-87efcd3658b1")
 		)
 		(pin "MAX1" input
-			(at 190.5 106.68 180)
+			(at 190.5 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +644,7 @@
 			(uuid "8a4582f8-4f20-4730-a70f-c243a420b8c8")
 		)
 		(pin "MIN1" input
-			(at 190.5 109.22 180)
+			(at 190.5 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,6 +652,46 @@
 				(justify left)
 			)
 			(uuid "fe5a61aa-4067-4a1e-b26c-0404dede4cd1")
+		)
+		(pin "MIN4" input
+			(at 190.5 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8f0c0c9-cbd2-4ae3-a326-94fbb41e2b99")
+		)
+		(pin "MAX3" input
+			(at 190.5 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f38deaaf-78be-4b20-aeb3-ae4c5f5e4791")
+		)
+		(pin "MIN3" input
+			(at 190.5 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "16bbf776-bd17-43e6-af86-3c35d91b4d0d")
+		)
+		(pin "MAX4" input
+			(at 190.5 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2efa8977-4730-49a6-9aeb-68db1e4b0b9e")
 		)
 		(instances
 			(project "recline-actuator-controller"
@@ -662,8 +702,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 100.33)
-		(size 38.1 26.67)
+		(at 63.5 137.16)
+		(size 38.1 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -674,7 +714,7 @@
 		)
 		(uuid "49ccf422-8e52-4f31-bf60-61adb7fb512c")
 		(property "Sheetname" "Solenoid Mosfets"
-			(at 63.5 99.6184 0)
+			(at 63.5 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +723,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETS.kicad_sch"
-			(at 63.5 127.5846 0)
+			(at 63.5 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +732,7 @@
 			)
 		)
 		(pin "AIR_COMP" input
-			(at 101.6 106.68 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +742,7 @@
 			(uuid "43bb329b-bbb3-4581-8fea-3129a6cdfc8e")
 		)
 		(pin "SOLENOID_0" input
-			(at 101.6 109.22 0)
+			(at 101.6 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +752,7 @@
 			(uuid "90b40a2c-4665-4b2d-83a9-af01e918b9c9")
 		)
 		(pin "SOLENOID_1" input
-			(at 101.6 111.76 0)
+			(at 101.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +762,7 @@
 			(uuid "28b766f6-23f9-4223-8439-125b888a5dcb")
 		)
 		(pin "SOLENOID_2" input
-			(at 101.6 114.3 0)
+			(at 101.6 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +772,7 @@
 			(uuid "12c9ea09-9c47-40bc-abd9-f9cce1aae16b")
 		)
 		(pin "SOLENOID_3" input
-			(at 101.6 116.84 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +888,145 @@
 		)
 	)
 	(sheet
-		(at 127 152.4)
+		(at 63.5 88.9)
+		(size 38.1 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "5e96fa95-1cc3-405c-b5df-46eef5c65562")
+		(property "Sheetname" "Leg Lift Motors"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Leg_Lift_H_Bridges.kicad_sch"
+			(at 63.5 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M4PWM" input
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0fffd3a3-8bd8-4253-bebe-1e7456db10bc")
+		)
+		(pin "M4CS" input
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15a93492-383f-43fe-96f3-4d7c82506eaa")
+		)
+		(pin "M4INA" input
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dee5db80-d6de-4eb3-873f-15dd25785e0c")
+		)
+		(pin "M4ENA{slash}B" input
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69eb2faf-a4e2-4393-beb7-0db878dc5cd8")
+		)
+		(pin "M4INB" input
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82cee5fd-1afc-438d-902e-51926ede21a2")
+		)
+		(pin "M3ENA{slash}B" input
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ce6128e-493c-4559-8740-aa311d9f7072")
+		)
+		(pin "M3PWM" input
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4830612d-3a7b-4192-9808-ca20f709fe65")
+		)
+		(pin "M3CS" input
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf06d0aa-717c-4b88-a4ce-c36e1e0b0e4f")
+		)
+		(pin "M3INA" input
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c27a010-11d9-486a-932a-acaa25febc55")
+		)
+		(pin "M3INB" input
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a927b1d6-e28b-47b6-bb22-3b2a3dd6f3eb")
+		)
+		(instances
+			(project "recline-actuator-controller"
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 165.1)
 		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -860,7 +1038,7 @@
 		)
 		(uuid "d527447b-7986-42ad-b09f-c647649f6315")
 		(property "Sheetname" "Power"
-			(at 127 151.6884 0)
+			(at 127 164.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +1047,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 127 178.3846 0)
+			(at 127 191.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +1056,7 @@
 			)
 		)
 		(pin "3.3V_PG" input
-			(at 154.94 152.4 90)
+			(at 154.94 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +1066,7 @@
 			(uuid "716dc3f5-9778-454c-a8a8-8658e16c7fa8")
 		)
 		(pin "5V_PG" input
-			(at 152.4 152.4 90)
+			(at 152.4 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)

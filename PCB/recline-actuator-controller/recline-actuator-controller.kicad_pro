@@ -627,6 +627,10 @@
     [
       "4736f004-0f35-46c9-a3b6-cf86b71c1c52",
       "End Stop Limit Switches"
+    ],
+    [
+      "5e96fa95-1cc3-405c-b5df-46eef5c65562",
+      "Leg Lift Motors"
     ]
   ],
   "text_variables": {}
