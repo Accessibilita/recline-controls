@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e7f13e6b-23be-4bb5-8bb5-e64b8d9e75bb")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "5V_PG"
+		(shape input)
+		(at 227.33 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f9a747c-0155-472b-9980-918cfbca799c")
+	)
+	(hierarchical_label "SOLENOID_2"
+		(shape input)
+		(at 227.33 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1002d9e8-e181-4889-93a4-60c6be4faef5")
+	)
+	(hierarchical_label "SOLENOID_1"
+		(shape input)
+		(at 227.33 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "175b5c93-8b25-41b5-81a0-b5ffa5381b75")
+	)
+	(hierarchical_label "SOLENOID_0"
+		(shape input)
+		(at 227.33 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50cd8837-0289-43ca-a24b-909fdbed48a4")
+	)
+	(hierarchical_label "SOLENOID_3"
+		(shape input)
+		(at 227.33 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d65380d-906e-42c0-8b76-6ea8e8e1b59a")
+	)
+	(hierarchical_label "3.3V_PG"
+		(shape input)
+		(at 227.33 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67bb400a-cfeb-4af9-99ad-5c2a47aeade0")
+	)
+	(hierarchical_label "AIR_COMP"
+		(shape input)
+		(at 227.33 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5c65467-af47-4a6e-adae-f8cbd349d0ed")
+	)
+)

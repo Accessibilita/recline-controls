@@ -5,6 +5,335 @@
 	(uuid "83220e39-4655-4a8d-8bd0-b9e570e7d44e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C0402C104K9PACTU"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+				(at 63.5 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 1" "0.10000"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 1000" "0.01139"
+				(at 5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 2500" "0.01035"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 5000" "0.00952"
+				(at 10.16 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 10000" "0.00756"
+				(at 12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "KEMET"
+				(at 15.24 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR#" "C0402C104K9PACTU"
+				(at 17.78 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 20.32 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor #" "399-3026-6-ND"
+				(at 22.86 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Designer" "AVR"
+				(at 25.4 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55mm"
+				(at 27.94 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Date Created" "12/7/2019"
+				(at 55.88 59.69 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Date Modified" "12/7/2019"
+				(at 30.48 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lead-Free ?" "Yes"
+				(at 33.02 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS Levels" "1"
+				(at 35.56 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting" "SMT"
+				(at 38.1 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count #" "2"
+				(at 40.64 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 43.18 46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 45.72 49.53 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Ceramic Cap"
+				(at 48.26 52.07 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "6.3V"
+				(at 50.8 54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0402"
+				(at 53.34 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "_Value_" "0.1uF"
+				(at 58.42 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Management_ID" "*"
+				(at 60.96 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C0402C104K9PACTU_1_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AVR-KiCAD-Lib-Connectors:0705430002"
 			(pin_names
 				(offset 1.016)
@@ -341,6 +670,826 @@
 				)
 			)
 		)
+		(symbol "AVR-KiCAD-Lib-ICs:MCP23S17T-E/ML"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.254 51.816 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP23S17T-E/ML"
+				(at 28.956 81.534 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "AVR-KiCAD-Lib-ICs:QFN28_6x6MC_MCH-L"
+				(at 22.606 76.454 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+				(at 25.146 78.994 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "I/O Expander 16 SPI 10 MHz 28-QFN (6x6)"
+				(at 88.646 145.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 1" "2.04000"
+				(at 30.226 85.344 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 1000" "1.54000"
+				(at 32.766 87.884 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 2500" "1.54001"
+				(at 35.306 90.424 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 5000" "1.54001"
+				(at 37.846 92.964 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost QTY: 10000" "1.54001"
+				(at 40.386 95.504 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Microchip Technology"
+				(at 42.926 98.044 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR#" "MCP23S17T-E/ML"
+				(at 45.466 100.584 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 48.006 103.124 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor #" "MCP23S17T-E/MLTR-ND"
+				(at 50.546 105.664 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Designer" "Adam Vadala-Roth"
+				(at 53.086 108.204 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1mm"
+				(at 55.626 110.744 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Date Created" "11/22/20204"
+				(at 83.566 138.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Date Modified" "11/22/20204"
+				(at 58.166 113.284 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lead-Free ?" "Yes"
+				(at 60.706 115.824 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS Levels" "1"
+				(at 63.246 118.364 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting" "SMT"
+				(at 65.786 120.904 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count #" "28"
+				(at 68.326 123.444 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 70.866 125.984 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "*"
+				(at 73.406 128.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "IC"
+				(at 75.946 131.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "1.8V-5.5V"
+				(at 78.486 133.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "28QFN"
+				(at 81.026 137.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "_Value_" "MCP23S17T-E/ML"
+				(at 8.382 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Management_ID" "*"
+				(at 88.646 145.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP23S17T-E/ML_1_1"
+				(rectangle
+					(start 0 50.8)
+					(end 25.4 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 15.24 180)
+					(length 2.54)
+					(name "GPB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 43.18 0)
+					(length 2.54)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 38.1 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 35.56 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 33.02 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 30.48 0)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 27.94 0)
+					(length 2.54)
+					(name "INTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 25.4 0)
+					(length 2.54)
+					(name "INTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 48.26 180)
+					(length 2.54)
+					(name "GPA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 45.72 180)
+					(length 2.54)
+					(name "GPA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 43.18 180)
+					(length 2.54)
+					(name "GPA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 12.7 180)
+					(length 2.54)
+					(name "GPB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 40.64 180)
+					(length 2.54)
+					(name "GPA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 38.1 180)
+					(length 2.54)
+					(name "GPA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 35.56 180)
+					(length 2.54)
+					(name "GPA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 33.02 180)
+					(length 2.54)
+					(name "GPA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 30.48 180)
+					(length 2.54)
+					(name "GPA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 25.4 180)
+					(length 2.54)
+					(name "GPB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 22.86 180)
+					(length 2.54)
+					(name "GPB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 20.32 180)
+					(length 2.54)
+					(name "GPB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 17.78 180)
+					(length 2.54)
+					(name "GPB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "GND_PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 10.16 180)
+					(length 2.54)
+					(name "GPB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 7.62 180)
+					(length 2.54)
+					(name "GPB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 20.32 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 22.86 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 48.26 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 45.72 0)
+					(length 2.54)
+					(name "SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -559,80 +1708,110 @@
 		)
 	)
 	(junction
-		(at 213.36 91.44)
+		(at 226.06 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b13b753-af81-418e-97ed-cf14227622f5")
+	)
+	(junction
+		(at 120.65 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14ac078d-bb63-441d-8db1-fcd5ae14fb1e")
 	)
 	(junction
-		(at 213.36 114.3)
+		(at 120.65 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2010db9a-852d-44a0-83dd-371ce70a507a")
 	)
 	(junction
-		(at 115.57 114.3)
+		(at 248.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd9edc7-68a2-4687-850a-25f3413de1e1")
+	)
+	(junction
+		(at 120.65 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39dc1ea8-9e7f-454b-a678-4dc89c042b10")
 	)
 	(junction
-		(at 115.57 102.87)
+		(at 116.84 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c13c2c6-d7eb-4352-a504-4df8b1df7907")
+	)
+	(junction
+		(at 120.65 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88dcf011-1f92-4e46-bf11-60006bca8054")
 	)
 	(junction
-		(at 119.38 111.76)
+		(at 116.84 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8953e441-81d9-4e96-93d6-b50902db0773")
 	)
 	(junction
-		(at 213.36 102.87)
+		(at 120.65 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93eab2da-5651-4cd4-a832-725b30b9b16b")
 	)
 	(junction
-		(at 217.17 111.76)
+		(at 116.84 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95665610-dd10-4e5f-a115-c5233a5e6625")
 	)
 	(junction
-		(at 217.17 123.19)
+		(at 116.84 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ff8cc4c-df89-4ab7-83d2-75967ca25807")
 	)
 	(junction
-		(at 119.38 123.19)
+		(at 116.84 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4d85e7e-923a-4f0f-9de3-356bea78cf8e")
 	)
 	(junction
-		(at 119.38 100.33)
+		(at 116.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26d9e27-72a9-4c21-a51e-d5759338391f")
 	)
 	(junction
-		(at 217.17 100.33)
+		(at 226.06 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d724c24e-f167-41d4-95c9-9acde08dabb8")
+	)
+	(junction
+		(at 116.84 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9fe9b1d-1cac-464e-8954-e6fbaa8fff54")
 	)
 	(junction
-		(at 115.57 91.44)
+		(at 120.65 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5b41bec-899e-469e-a939-74e3a3263faa")
 	)
+	(junction
+		(at 120.65 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5fa824d-ae09-4f5c-b484-aacfe60c9997")
+	)
 	(wire
 		(pts
-			(xy 213.36 91.44) (xy 222.25 91.44)
+			(xy 120.65 115.57) (xy 111.76 115.57)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +1821,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 222.25 102.87)
+			(xy 273.05 63.5) (xy 226.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096338b1-510c-42e2-8aab-abdf0dac3eec")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 111.76 127)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 109.22) (xy 222.25 109.22)
+			(xy 111.76 133.35) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 115.57 102.87)
+			(xy 120.65 92.71) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +1861,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 100.33) (xy 217.17 111.76)
+			(xy 226.06 101.6) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1961a2a1-ed92-402b-9ffe-26e6f137316d")
+	)
+	(wire
+		(pts
+			(xy 116.84 124.46) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 124.46 114.3)
+			(xy 120.65 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 119.38 123.19)
+			(xy 116.84 90.17) (xy 116.84 101.6)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +1901,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 124.46 97.79)
+			(xy 160.02 66.04) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28963172-d419-44d1-ba71-400227bf3207")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 213.36 91.44)
+			(xy 120.65 127) (xy 120.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 124.46 100.33)
+			(xy 116.84 78.74) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 115.57 91.44)
+			(xy 120.65 81.28) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +1951,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 222.25 97.79)
+			(xy 226.06 83.82) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d305254-eaba-4bfc-b14d-3d35800d5880")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +1971,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 109.22) (xy 124.46 109.22)
+			(xy 167.64 71.12) (xy 167.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d2384c-8773-4c9f-ad03-af7d0907c7b5")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +1991,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 120.65) (xy 124.46 120.65)
+			(xy 185.42 88.9) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43af14f5-58ea-4c53-8f42-f23a9062cf9a")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +2011,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 124.46 111.76)
+			(xy 165.1 73.66) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc73356-574b-4dd0-bab5-fa2a43d2d15d")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 213.36 102.87)
+			(xy 120.65 138.43) (xy 120.65 127)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 119.38 88.9)
+			(xy 111.76 67.31) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +2051,37 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 124.46 91.44)
+			(xy 152.4 64.77) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66db8064-7580-4002-997e-a60d632bea5f")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a175e1a-c70d-4167-8042-5131ba646ad2")
+	)
+	(wire
+		(pts
+			(xy 154.94 60.96) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1c21a2-5bc1-4a3d-b9d7-74c82605eb52")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 111.76 69.85)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +2091,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 222.25 86.36)
+			(xy 185.42 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7549742d-a1e7-4cae-b495-74e957b9b256")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 162.56 110.49)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +2111,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 100.33) (xy 222.25 100.33)
+			(xy 195.58 71.12) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77947af6-3f0d-4cf1-8333-ebb307630863")
+	)
+	(wire
+		(pts
+			(xy 116.84 124.46) (xy 111.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 91.44)
+			(xy 120.65 52.07) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 111.76) (xy 217.17 123.19)
+			(xy 116.84 135.89) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +2151,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 222.25 114.3)
+			(xy 243.84 66.04) (xy 273.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e184aeb-6c35-4907-8886-928323edc353")
+	)
+	(wire
+		(pts
+			(xy 120.65 138.43) (xy 111.76 138.43)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +2171,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 88.9) (xy 217.17 100.33)
+			(xy 243.84 83.82) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8293af9b-f598-44d4-87f6-92b6fa2f4e3f")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +2191,37 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 213.36 114.3)
+			(xy 170.18 68.58) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e4441a-a514-4cc5-a17d-8fc1a48972a8")
+	)
+	(wire
+		(pts
+			(xy 226.06 86.36) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87325802-692d-4f3a-8a2d-f7ea70b15095")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab96786-3d32-47d1-b547-04640110ff0b")
+	)
+	(wire
+		(pts
+			(xy 120.65 149.86) (xy 120.65 138.43)
 		)
 		(stroke
 			(width 0)
@@ -882,7 +2231,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 125.73) (xy 115.57 125.73)
+			(xy 111.76 104.14) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +2241,57 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 86.36) (xy 124.46 86.36)
+			(xy 195.58 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d309b16-10f5-46a2-86c5-ce6e092d7620")
+	)
+	(wire
+		(pts
+			(xy 185.42 83.82) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb757c6-dd3c-4073-a874-9b70e582424c")
+	)
+	(wire
+		(pts
+			(xy 185.42 96.52) (xy 195.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdb2d13-2c6b-4ade-85b4-318900b89d38")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44d7af6-c743-46e4-9197-50c8a925f682")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a972e8e4-ca9e-4fb3-960d-5207a1fa3252")
+	)
+	(wire
+		(pts
+			(xy 111.76 64.77) (xy 152.4 64.77)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 123.19) (xy 222.25 123.19)
+			(xy 116.84 147.32) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -912,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 123.19) (xy 217.17 130.81)
+			(xy 116.84 147.32) (xy 116.84 154.94)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +2321,27 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 115.57 114.3)
+			(xy 273.05 58.42) (xy 226.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6437b77-00d5-4925-b193-3c9735af1404")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8011c62-0d7c-4e05-bd71-0fb50d36c349")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 120.65 92.71)
 		)
 		(stroke
 			(width 0)
@@ -932,7 +2351,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 111.76) (xy 222.25 111.76)
+			(xy 273.05 60.96) (xy 226.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c85f11-4afb-4a85-a1c8-a28e1421bd54")
+	)
+	(wire
+		(pts
+			(xy 116.84 135.89) (xy 111.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 125.73) (xy 213.36 125.73)
+			(xy 111.76 149.86) (xy 120.65 149.86)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 73.66) (xy 213.36 91.44)
+			(xy 120.65 104.14) (xy 120.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +2391,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 124.46 123.19)
+			(xy 195.58 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5496bd8-5d69-47dc-8d8d-87d6c68e117c")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 222.25 120.65)
+			(xy 111.76 144.78) (xy 170.18 144.78)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 119.38 130.81)
+			(xy 116.84 101.6) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +2431,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 100.33)
+			(xy 248.92 97.79) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc82f962-fd90-4095-ac39-f2aa0a1b3365")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +2451,37 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 124.46 102.87)
+			(xy 226.06 99.06) (xy 226.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4b314f-4945-4674-a1c1-82bd9ebf223f")
+	)
+	(wire
+		(pts
+			(xy 195.58 73.66) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb029ef-dd4c-4072-ac38-288ff6ad0910")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e082e7e9-185c-4fa9-b0b8-ec7504a6c138")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 217.17 88.9)
+			(xy 111.76 113.03) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1022,13 +2501,53 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 119.38 111.76)
+			(xy 185.42 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f291c894-c5f2-4439-87e2-1421452517f7")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f428d004-b13f-4d7d-ab5a-c438e4da4182")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 195.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7230e1a-9bcc-4fd3-98e0-9b2c38bc27ce")
+	)
+	(wire
+		(pts
+			(xy 116.84 78.74) (xy 116.84 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fcedd89e-ce1f-4158-a43b-d6ab54a6b445")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff56ce94-2098-4c23-9221-ada99309eba9")
 	)
 	(text "Endstops"
 		(exclude_from_sim no)
@@ -1042,9 +2561,109 @@
 		)
 		(uuid "24e2b731-e8e0-42d1-bbca-151a5c4cd540")
 	)
-	(hierarchical_label "MIN3"
+	(label "MAX1"
+		(at 147.32 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a3f4181-6847-4426-b758-39c3f3cfbf65")
+	)
+	(label "MIN1"
+		(at 147.32 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51d72675-2c9f-4adf-9d0e-7728e8224abe")
+	)
+	(label "MIN2"
+		(at 147.32 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6aa0b8c0-45a3-463d-a096-0e5bc491c3a3")
+	)
+	(label "MAX4"
+		(at 147.32 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72080991-f2fa-46a9-9218-a6629bd258c1")
+	)
+	(label "MAX3"
+		(at 147.32 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7be9777b-fa40-465f-909a-4eae9c11b6eb")
+	)
+	(label "MIN4"
+		(at 147.32 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9282dbcd-a999-4690-a449-dec7d52e9b94")
+	)
+	(label "MAX2"
+		(at 147.32 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "946009c8-edd0-424b-8d0a-72904eb492bb")
+	)
+	(label "MIN3"
+		(at 147.32 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b50750bf-830c-4f5b-b241-11df58213c70")
+	)
+	(hierarchical_label "SPI0_CSn"
 		(shape input)
-		(at 185.42 97.79 180)
+		(at 273.05 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eb4d591-3547-448b-959a-57713535e79d")
+	)
+	(hierarchical_label "SOLENOID_3"
+		(shape input)
+		(at 185.42 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1052,9 +2671,57 @@
 			)
 			(justify right)
 		)
-		(uuid "2d17d90e-95f1-4b22-9096-cfba019baf29")
+		(uuid "320cdc70-9dd3-4b70-a1b3-41ec5c8185ed")
 	)
-	(hierarchical_label "MAX3"
+	(hierarchical_label "SOLENOID_0"
+		(shape input)
+		(at 185.42 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35bae928-81ae-431f-b01e-07e360031169")
+	)
+	(hierarchical_label "SOLENOID_1"
+		(shape input)
+		(at 185.42 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "388f338c-1ea2-46fb-9ed3-917028bcd6e0")
+	)
+	(hierarchical_label "AIR_COMP"
+		(shape input)
+		(at 185.42 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f9eedfb-ff65-4c94-8d55-2025c886ee19")
+	)
+	(hierarchical_label "SPI0_RX"
+		(shape input)
+		(at 273.05 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92b89a1b-05cf-446c-84c5-c4becda64f43")
+	)
+	(hierarchical_label "SOLENOID_2"
 		(shape input)
 		(at 185.42 86.36 180)
 		(fields_autoplaced yes)
@@ -1064,11 +2731,11 @@
 			)
 			(justify right)
 		)
-		(uuid "74b3982b-a17c-4389-b96b-b03c4bd48969")
+		(uuid "9a557925-11d7-4302-91c8-7907d52cd654")
 	)
-	(hierarchical_label "MAX4"
+	(hierarchical_label "3.3V_PG"
 		(shape input)
-		(at 185.42 109.22 180)
+		(at 185.42 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1076,11 +2743,23 @@
 			)
 			(justify right)
 		)
-		(uuid "867068c8-fd04-46b7-b633-8950034fe95a")
+		(uuid "df52dfd1-4d16-45c9-a1a2-746a9528104c")
 	)
-	(hierarchical_label "MIN4"
+	(hierarchical_label "SPI0_SCK"
 		(shape input)
-		(at 185.42 120.65 180)
+		(at 273.05 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6590574-9c22-47a4-9b14-0a178d3b2cab")
+	)
+	(hierarchical_label "5V_PG"
+		(shape input)
+		(at 185.42 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1088,59 +2767,24 @@
 			)
 			(justify right)
 		)
-		(uuid "a2b149e5-6cc2-443e-909c-d90d980dc84d")
+		(uuid "fa9800d6-2969-46f3-9cee-47878e49cac3")
 	)
-	(hierarchical_label "MIN2"
+	(hierarchical_label "SPI0_TX"
 		(shape input)
-		(at 87.63 120.65 180)
+		(at 273.05 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "aa4f1f27-f245-4292-9a9e-ebdcb858fbb6")
-	)
-	(hierarchical_label "MAX1"
-		(shape input)
-		(at 87.63 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8276806-8508-4563-80e3-d74b1f454069")
-	)
-	(hierarchical_label "MIN1"
-		(shape input)
-		(at 87.63 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1839e85-4667-4f4e-baca-0d28521914ba")
-	)
-	(hierarchical_label "MAX2"
-		(shape input)
-		(at 87.63 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef4ae466-02f9-4990-bffc-def2dcf9ad61")
+		(uuid "fc02fe18-e2ea-4496-a1e9-7fae7b7c4f60")
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 227.33 118.11 0)
+		(at 106.68 142.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1149,7 +2793,7 @@
 		(fields_autoplaced yes)
 		(uuid "05c3d493-25e4-45a1-ba29-60d6e9745ffa")
 		(property "Reference" "J21"
-			(at 233.68 121.9199 0)
+			(at 100.33 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +2802,7 @@
 			)
 		)
 		(property "Value" "0705430002"
-			(at 233.68 124.4599 0)
+			(at 100.33 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +2811,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 195.58 92.71 0)
+			(at 138.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +2820,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 224.79 129.54 0)
+			(at 109.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +2829,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 290.83 49.53 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +2838,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.92000"
-			(at 229.87 111.76 0)
+			(at 104.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +2847,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.50512"
-			(at 232.41 109.22 0)
+			(at 101.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +2856,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "*"
-			(at 234.95 106.68 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +2865,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.44198"
-			(at 237.49 104.14 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +2874,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.41988"
-			(at 240.03 101.6 0)
+			(at 93.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +2883,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 242.57 99.06 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +2892,7 @@
 			)
 		)
 		(property "MFR#" "0705430002"
-			(at 245.11 96.52 0)
+			(at 88.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +2901,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 247.65 93.98 0)
+			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +2910,7 @@
 			)
 		)
 		(property "Vendor #" "WM4801-ND"
-			(at 250.19 91.44 0)
+			(at 83.82 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +2919,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 252.73 88.9 0)
+			(at 81.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +2928,7 @@
 			)
 		)
 		(property "Height" "11.8mm"
-			(at 255.27 86.36 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +2937,7 @@
 			)
 		)
 		(property "Date Created" "6/16/2020"
-			(at 283.21 58.42 0)
+			(at 50.8 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +2946,7 @@
 			)
 		)
 		(property "Date Modified" "6/16/2020"
-			(at 257.81 83.82 0)
+			(at 76.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +2955,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 260.35 81.28 0)
+			(at 73.66 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +2964,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 262.89 78.74 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +2973,7 @@
 			)
 		)
 		(property "Mounting" "ThroughHole"
-			(at 265.43 76.2 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +2982,7 @@
 			)
 		)
 		(property "Pin Count #" "3"
-			(at 267.97 73.66 0)
+			(at 66.04 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +2991,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 270.51 71.12 0)
+			(at 63.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +3000,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 273.05 68.58 0)
+			(at 60.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +3009,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 275.59 66.04 0)
+			(at 58.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +3018,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 278.13 63.5 0)
+			(at 55.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +3027,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 280.67 59.69 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +3036,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 285.75 54.61 0)
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +3045,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 288.29 52.07 0)
+			(at 45.72 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +3073,8 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 227.33 106.68 0)
+		(at 106.68 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1438,7 +3083,7 @@
 		(fields_autoplaced yes)
 		(uuid "19517c83-09c7-42a6-81cb-17869f17604c")
 		(property "Reference" "J20"
-			(at 233.68 110.4899 0)
+			(at 100.33 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +3092,7 @@
 			)
 		)
 		(property "Value" "0705430002"
-			(at 233.68 113.0299 0)
+			(at 100.33 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +3101,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 195.58 81.28 0)
+			(at 138.43 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +3110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 224.79 118.11 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +3119,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 290.83 38.1 0)
+			(at 43.18 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +3128,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.92000"
-			(at 229.87 100.33 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +3137,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.50512"
-			(at 232.41 97.79 0)
+			(at 101.6 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +3146,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "*"
-			(at 234.95 95.25 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +3155,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.44198"
-			(at 237.49 92.71 0)
+			(at 96.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +3164,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.41988"
-			(at 240.03 90.17 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +3173,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 242.57 87.63 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +3182,7 @@
 			)
 		)
 		(property "MFR#" "0705430002"
-			(at 245.11 85.09 0)
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +3191,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 247.65 82.55 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +3200,7 @@
 			)
 		)
 		(property "Vendor #" "WM4801-ND"
-			(at 250.19 80.01 0)
+			(at 83.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +3209,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 252.73 77.47 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +3218,7 @@
 			)
 		)
 		(property "Height" "11.8mm"
-			(at 255.27 74.93 0)
+			(at 78.74 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +3227,7 @@
 			)
 		)
 		(property "Date Created" "6/16/2020"
-			(at 283.21 46.99 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +3236,7 @@
 			)
 		)
 		(property "Date Modified" "6/16/2020"
-			(at 257.81 72.39 0)
+			(at 76.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +3245,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 260.35 69.85 0)
+			(at 73.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +3254,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 262.89 67.31 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +3263,7 @@
 			)
 		)
 		(property "Mounting" "ThroughHole"
-			(at 265.43 64.77 0)
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +3272,7 @@
 			)
 		)
 		(property "Pin Count #" "3"
-			(at 267.97 62.23 0)
+			(at 66.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +3281,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 270.51 59.69 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +3290,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 273.05 57.15 0)
+			(at 60.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +3299,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 275.59 54.61 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +3308,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 278.13 52.07 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +3317,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 280.67 48.26 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +3326,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 285.75 43.18 0)
+			(at 48.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +3335,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 288.29 40.64 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +3363,8 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 73.66 0)
+		(at 120.65 52.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1727,7 +3373,7 @@
 		(fields_autoplaced yes)
 		(uuid "33b9090e-dbf2-495e-b837-1868a10344c3")
 		(property "Reference" "#PWR066"
-			(at 115.57 77.47 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +3382,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 115.57 68.58 0)
+			(at 120.65 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +3390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 73.66 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +3399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 73.66 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +3408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 73.66 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,17 +3429,17 @@
 		)
 	)
 	(symbol
-		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 129.54 106.68 0)
+		(lib_id "AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU")
+		(at 248.92 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c6b87e5-f72b-49c4-ae56-dd8d579bd17b")
-		(property "Reference" "J14"
-			(at 135.89 110.4899 0)
+		(uuid "3513b79f-ac32-4cc9-97bf-f5fcffee57f5")
+		(property "Reference" "C36"
+			(at 245.11 90.8049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,17 +3447,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0705430002"
-			(at 135.89 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 97.79 81.28 0)
+		(property "Value" "C0402C104K9PACTU"
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,8 +3456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 127 118.11 0)
+		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,8 +3465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 193.04 38.1 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 246.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,8 +3474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1" "0.92000"
-			(at 132.08 100.33 0)
+		(property "Description" "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,8 +3483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1000" "0.50512"
-			(at 134.62 97.79 0)
+		(property "Cost QTY: 1" "0.10000"
+			(at 242.57 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,8 +3492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 2500" "*"
-			(at 137.16 95.25 0)
+		(property "Cost QTY: 1000" "0.01139"
+			(at 240.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,8 +3501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 5000" "0.44198"
-			(at 139.7 92.71 0)
+		(property "Cost QTY: 2500" "0.01035"
+			(at 237.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,8 +3510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 10000" "0.41988"
-			(at 142.24 90.17 0)
+		(property "Cost QTY: 5000" "0.00952"
+			(at 234.95 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,8 +3519,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Molex"
-			(at 144.78 87.63 0)
+		(property "Cost QTY: 10000" "0.00756"
+			(at 232.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,8 +3528,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR#" "0705430002"
-			(at 147.32 85.09 0)
+		(property "MFR" "KEMET"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "C0402C104K9PACTU"
+			(at 227.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +3547,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 149.86 82.55 0)
+			(at 224.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,8 +3555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor #" "WM4801-ND"
-			(at 152.4 80.01 0)
+		(property "Vendor #" "399-3026-6-ND"
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +3565,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 154.94 77.47 0)
+			(at 219.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,8 +3573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "11.8mm"
-			(at 157.48 74.93 0)
+		(property "Height" "0.55mm"
+			(at 217.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,8 +3582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Date Created" "6/16/2020"
-			(at 185.42 46.99 0)
+		(property "Date Created" "12/7/2019"
+			(at 189.23 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,8 +3591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Date Modified" "6/16/2020"
-			(at 160.02 72.39 0)
+		(property "Date Modified" "12/7/2019"
+			(at 214.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +3601,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 162.56 69.85 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +3610,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 165.1 67.31 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,8 +3618,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting" "ThroughHole"
-			(at 167.64 64.77 0)
+		(property "Mounting" "SMT"
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,8 +3627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count #" "3"
-			(at 170.18 62.23 0)
+		(property "Pin Count #" "2"
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +3637,361 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 172.72 59.69 0)
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Ceramic Cap"
+			(at 196.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 190.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "0.1uF"
+			(at 245.11 93.3449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41351170-2946-4ce8-a1b6-0487b15593f9")
+		)
+		(pin "2"
+			(uuid "96c994be-ac24-4ea8-b4ea-0725df071d33")
+		)
+		(instances
+			(project "recline-actuator-controller"
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393c352f-1064-4917-91b8-2a07c0e9b4c7")
+		(property "Reference" "#PWR086"
+			(at 248.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa4500ec-3efa-4583-b99e-528a8d5a6a40")
+		)
+		(instances
+			(project "recline-actuator-controller"
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
+		(at 106.68 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6b87e5-f72b-49c4-ae56-dd8d579bd17b")
+		(property "Reference" "J14"
+			(at 100.33 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0705430002"
+			(at 100.33 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
+			(at 43.18 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.92000"
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.50512"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "0.44198"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "0.41988"
+			(at 93.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "0705430002"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "WM4801-ND"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.8mm"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "6/16/2020"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "6/16/2020"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 73.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "3"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +4000,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 175.26 57.15 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +4009,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 177.8 54.61 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +4018,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 180.34 52.07 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +4027,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 182.88 48.26 0)
+			(at 53.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +4036,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 187.96 43.18 0)
+			(at 48.26 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +4045,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 190.5 40.64 0)
+			(at 45.72 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +4073,8 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 129.54 95.25 0)
+		(at 106.68 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2082,7 +4083,7 @@
 		(fields_autoplaced yes)
 		(uuid "466e0016-7991-407b-b4f6-0833d226a223")
 		(property "Reference" "J13"
-			(at 135.89 99.0599 0)
+			(at 100.33 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +4092,7 @@
 			)
 		)
 		(property "Value" "0705430002"
-			(at 135.89 101.5999 0)
+			(at 100.33 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +4101,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 97.79 69.85 0)
+			(at 138.43 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +4110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 127 106.68 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +4119,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 193.04 26.67 0)
+			(at 43.18 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +4128,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.92000"
-			(at 132.08 88.9 0)
+			(at 104.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +4137,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.50512"
-			(at 134.62 86.36 0)
+			(at 101.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +4146,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "*"
-			(at 137.16 83.82 0)
+			(at 99.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +4155,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.44198"
-			(at 139.7 81.28 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +4164,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.41988"
-			(at 142.24 78.74 0)
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +4173,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 144.78 76.2 0)
+			(at 91.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +4182,7 @@
 			)
 		)
 		(property "MFR#" "0705430002"
-			(at 147.32 73.66 0)
+			(at 88.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +4191,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 149.86 71.12 0)
+			(at 86.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +4200,7 @@
 			)
 		)
 		(property "Vendor #" "WM4801-ND"
-			(at 152.4 68.58 0)
+			(at 83.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +4209,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 154.94 66.04 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +4218,7 @@
 			)
 		)
 		(property "Height" "11.8mm"
-			(at 157.48 63.5 0)
+			(at 78.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +4227,7 @@
 			)
 		)
 		(property "Date Created" "6/16/2020"
-			(at 185.42 35.56 0)
+			(at 50.8 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +4236,7 @@
 			)
 		)
 		(property "Date Modified" "6/16/2020"
-			(at 160.02 60.96 0)
+			(at 76.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +4245,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 162.56 58.42 0)
+			(at 73.66 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +4254,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 165.1 55.88 0)
+			(at 71.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +4263,7 @@
 			)
 		)
 		(property "Mounting" "ThroughHole"
-			(at 167.64 53.34 0)
+			(at 68.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +4272,7 @@
 			)
 		)
 		(property "Pin Count #" "3"
-			(at 170.18 50.8 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +4281,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 172.72 48.26 0)
+			(at 63.5 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +4290,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 175.26 45.72 0)
+			(at 60.96 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +4299,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 177.8 43.18 0)
+			(at 58.42 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +4308,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 180.34 40.64 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +4317,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 182.88 36.83 0)
+			(at 53.34 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +4326,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 187.96 31.75 0)
+			(at 48.26 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +4335,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 190.5 29.21 0)
+			(at 45.72 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +4363,8 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 129.54 83.82 0)
+		(at 106.68 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2371,7 +4373,7 @@
 		(fields_autoplaced yes)
 		(uuid "548ca41e-39d6-4fe5-9da7-99b43c94acc9")
 		(property "Reference" "J12"
-			(at 135.89 87.6299 0)
+			(at 100.33 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +4382,7 @@
 			)
 		)
 		(property "Value" "0705430002"
-			(at 135.89 90.1699 0)
+			(at 100.33 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +4391,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 97.79 58.42 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +4400,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 127 95.25 0)
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +4409,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 193.04 15.24 0)
+			(at 43.18 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +4418,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.92000"
-			(at 132.08 77.47 0)
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +4427,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.50512"
-			(at 134.62 74.93 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +4436,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "*"
-			(at 137.16 72.39 0)
+			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +4445,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.44198"
-			(at 139.7 69.85 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +4454,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.41988"
-			(at 142.24 67.31 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +4463,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 144.78 64.77 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +4472,7 @@
 			)
 		)
 		(property "MFR#" "0705430002"
-			(at 147.32 62.23 0)
+			(at 88.9 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +4481,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 149.86 59.69 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +4490,7 @@
 			)
 		)
 		(property "Vendor #" "WM4801-ND"
-			(at 152.4 57.15 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +4499,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 154.94 54.61 0)
+			(at 81.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +4508,7 @@
 			)
 		)
 		(property "Height" "11.8mm"
-			(at 157.48 52.07 0)
+			(at 78.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +4517,7 @@
 			)
 		)
 		(property "Date Created" "6/16/2020"
-			(at 185.42 24.13 0)
+			(at 50.8 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +4526,7 @@
 			)
 		)
 		(property "Date Modified" "6/16/2020"
-			(at 160.02 49.53 0)
+			(at 76.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +4535,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 162.56 46.99 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +4544,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 165.1 44.45 0)
+			(at 71.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +4553,7 @@
 			)
 		)
 		(property "Mounting" "ThroughHole"
-			(at 167.64 41.91 0)
+			(at 68.58 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +4562,7 @@
 			)
 		)
 		(property "Pin Count #" "3"
-			(at 170.18 39.37 0)
+			(at 66.04 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +4571,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 172.72 36.83 0)
+			(at 63.5 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +4580,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 175.26 34.29 0)
+			(at 60.96 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +4589,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 177.8 31.75 0)
+			(at 58.42 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +4598,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 180.34 29.21 0)
+			(at 55.88 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +4607,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 182.88 25.4 0)
+			(at 53.34 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +4616,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 187.96 20.32 0)
+			(at 48.26 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +4625,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 190.5 17.78 0)
+			(at 45.72 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,35 +4652,26 @@
 		)
 	)
 	(symbol
-		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 129.54 118.11 0)
+		(lib_id "AVR-KiCAD-Lib-ICs:MCP23S17T-E/ML")
+		(at 223.52 106.68 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7cb618c0-ed26-42e1-b407-a6f96d649be3")
-		(property "Reference" "J15"
-			(at 135.89 121.9199 0)
+		(uuid "75ccf499-b8cb-4e0c-b658-65abe2c5ea38")
+		(property "Reference" "U8"
+			(at 210.82 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0705430002"
-			(at 135.89 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 97.79 92.71 0)
+		(property "Value" "MCP23S17T-E/ML"
+			(at 194.564 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,8 +4679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 127 129.54 0)
+		(property "Footprint" "AVR-KiCAD-Lib-ICs:QFN28_6x6MC_MCH-L"
+			(at 200.914 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,8 +4688,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 193.04 49.53 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 198.374 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,8 +4697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1" "0.92000"
-			(at 132.08 111.76 0)
+		(property "Description" "I/O Expander 16 SPI 10 MHz 28-QFN (6x6)"
+			(at 134.874 -38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,8 +4706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1000" "0.50512"
-			(at 134.62 109.22 0)
+		(property "Cost QTY: 1" "2.04000"
+			(at 193.294 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,8 +4715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 2500" "*"
-			(at 137.16 106.68 0)
+		(property "Cost QTY: 1000" "1.54000"
+			(at 190.754 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,8 +4724,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 5000" "0.44198"
-			(at 139.7 104.14 0)
+		(property "Cost QTY: 2500" "1.54001"
+			(at 188.214 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,8 +4733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 10000" "0.41988"
-			(at 142.24 101.6 0)
+		(property "Cost QTY: 5000" "1.54001"
+			(at 185.674 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,8 +4742,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Molex"
-			(at 144.78 99.06 0)
+		(property "Cost QTY: 10000" "1.54001"
+			(at 183.134 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,8 +4751,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFR#" "0705430002"
-			(at 147.32 96.52 0)
+		(property "MFR" "Microchip Technology"
+			(at 180.594 8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "MCP23S17T-E/ML"
+			(at 178.054 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +4770,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 149.86 93.98 0)
+			(at 175.514 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,8 +4778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor #" "WM4801-ND"
-			(at 152.4 91.44 0)
+		(property "Vendor #" "MCP23S17T-E/MLTR-ND"
+			(at 172.974 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,8 +4787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Designer" "AVR"
-			(at 154.94 88.9 0)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 170.434 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,8 +4796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "11.8mm"
-			(at 157.48 86.36 0)
+		(property "Height" "1mm"
+			(at 167.894 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,8 +4805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Date Created" "6/16/2020"
-			(at 185.42 58.42 0)
+		(property "Date Created" "11/22/20204"
+			(at 139.954 -32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,8 +4814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Date Modified" "6/16/2020"
-			(at 160.02 83.82 0)
+		(property "Date Modified" "11/22/20204"
+			(at 165.354 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +4824,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 162.56 81.28 0)
+			(at 162.814 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +4833,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 165.1 78.74 0)
+			(at 160.274 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,8 +4841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting" "ThroughHole"
-			(at 167.64 76.2 0)
+		(property "Mounting" "SMT"
+			(at 157.734 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,8 +4850,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count #" "3"
-			(at 170.18 73.66 0)
+		(property "Pin Count #" "28"
+			(at 155.194 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +4860,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 172.72 71.12 0)
+			(at 152.654 -19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +4869,377 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 175.26 68.58 0)
+			(at 150.114 -21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "IC"
+			(at 147.574 -24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1.8V-5.5V"
+			(at 145.034 -26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "28QFN"
+			(at 142.494 -30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "MCP23S17T-E/ML"
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 134.874 -38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "21"
+			(uuid "dd9f46e5-b24b-4080-80c5-4a1109113972")
+		)
+		(pin "25"
+			(uuid "aaff7bc3-1fc0-4b14-987e-75ca10d11625")
+		)
+		(pin "16"
+			(uuid "27798677-3c78-4ac2-a6d0-928567343896")
+		)
+		(pin "26"
+			(uuid "8d6a0f10-5c45-4976-9ddd-14fb36b13c2b")
+		)
+		(pin "9"
+			(uuid "4e1e55e0-ab90-4510-a956-9cce663a8aab")
+		)
+		(pin "8"
+			(uuid "647e96a8-5e84-4af1-95c3-69e17e4e6b6f")
+		)
+		(pin "20"
+			(uuid "baf03b7b-a46e-4a2a-92de-97ce2715da08")
+		)
+		(pin "7"
+			(uuid "f36bec01-816e-4461-a037-790abc3d1e2f")
+		)
+		(pin "19"
+			(uuid "735469c5-90a9-4918-b331-17f1451bc589")
+		)
+		(pin "17"
+			(uuid "ccbb9569-4b2d-4a76-b0f3-55920f80f686")
+		)
+		(pin "28"
+			(uuid "aa34731a-6b9f-4242-8845-d74e4fe75b18")
+		)
+		(pin "13"
+			(uuid "91bf5770-8596-4867-8c9d-c24ef5b0a8c3")
+		)
+		(pin "18"
+			(uuid "55820b92-25ec-47f7-98d3-ff9bff25c678")
+		)
+		(pin "4"
+			(uuid "9029f4d2-cc0f-45f3-ab7e-289d7f245e9b")
+		)
+		(pin "5"
+			(uuid "879f938e-c46e-471a-a302-de7a8f5718a0")
+		)
+		(pin "3"
+			(uuid "9cafeccd-d6d6-42a5-b98f-4d3ed018e2ee")
+		)
+		(pin "9"
+			(uuid "8e7bb112-52cc-403b-8e24-4700073d9e66")
+		)
+		(pin "22"
+			(uuid "80384cf2-0e59-4de4-9798-64ae851ebca2")
+		)
+		(pin "6"
+			(uuid "6ed54eb4-1099-4096-9d26-086eac23b48e")
+		)
+		(pin "10"
+			(uuid "6b9bcce9-a469-4387-a9e5-fb509a489c7e")
+		)
+		(pin "12"
+			(uuid "87aa9b86-a989-4e5d-ac48-3e8cd236a9f4")
+		)
+		(pin "2"
+			(uuid "4b12a74e-068f-4e5f-8b22-b07e5d7af6a5")
+		)
+		(pin "1"
+			(uuid "7e8a0f68-0883-4a3d-bf58-d7e4b46e3692")
+		)
+		(pin "11"
+			(uuid "89f419ee-8bb7-4de6-a465-7f828b967c4b")
+		)
+		(pin "14"
+			(uuid "bc3a044b-1c51-4769-9c8a-1b6cf492d842")
+		)
+		(pin "15"
+			(uuid "53ec521a-7f5d-4776-9b64-86b635a2fbf9")
+		)
+		(pin "27"
+			(uuid "29b46af5-e5b6-4f37-a530-ac0631a3357b")
+		)
+		(pin "23"
+			(uuid "1a100fec-234c-4006-bb61-84a67768bb7f")
+		)
+		(pin "24"
+			(uuid "7a39345e-6025-4361-bbf9-fc6fba45826f")
+		)
+		(pin "29"
+			(uuid "5b45831e-1849-4d24-9d47-e52e383c6d47")
+		)
+		(instances
+			(project ""
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
+		(at 106.68 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cb618c0-ed26-42e1-b407-a6f96d649be3")
+		(property "Reference" "J15"
+			(at 100.33 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0705430002"
+			(at 100.33 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.92000"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.50512"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "0.44198"
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "0.41988"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 91.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "0705430002"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "WM4801-ND"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 81.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.8mm"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "6/16/2020"
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "6/16/2020"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 73.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "3"
+			(at 66.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 63.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +5248,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 177.8 66.04 0)
+			(at 58.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +5257,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 180.34 63.5 0)
+			(at 55.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +5266,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 182.88 59.69 0)
+			(at 53.34 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +5275,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 187.96 54.61 0)
+			(at 48.26 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +5284,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 190.5 52.07 0)
+			(at 45.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +5312,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 130.81 0)
+		(at 116.84 154.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2949,7 +5322,7 @@
 		(fields_autoplaced yes)
 		(uuid "8055763c-01eb-4460-8db6-1d12f6a3295c")
 		(property "Reference" "#PWR083"
-			(at 217.17 137.16 0)
+			(at 116.84 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +5331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 135.89 0)
+			(at 116.84 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +5339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 130.81 0)
+			(at 116.84 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +5348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 130.81 0)
+			(at 116.84 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +5357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 130.81 0)
+			(at 116.84 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,140 +5378,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 213.36 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93564e0e-a284-44b1-83f7-1d8bcb3b4e52")
-		(property "Reference" "#PWR082"
-			(at 213.36 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 213.36 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5411f547-b54a-4119-910b-23c0733209b9")
-		)
-		(instances
-			(project "recline-actuator-controller"
-				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a93d9dc4-3cbb-4f7b-9c90-7d55923756c4")
-		(property "Reference" "#PWR067"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6c867f1-5f25-4f2a-9176-824ef71ee448")
-		)
-		(instances
-			(project ""
-				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 227.33 83.82 0)
+		(at 106.68 107.95 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3147,7 +5389,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18bcbe2-31f5-41ad-9ddb-cd9896f4c86c")
 		(property "Reference" "J18"
-			(at 233.68 87.6299 0)
+			(at 100.33 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +5398,7 @@
 			)
 		)
 		(property "Value" "0705430002"
-			(at 233.68 90.1699 0)
+			(at 100.33 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +5407,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 195.58 58.42 0)
+			(at 138.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +5416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 224.79 95.25 0)
+			(at 109.22 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +5425,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 290.83 15.24 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +5434,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.92000"
-			(at 229.87 77.47 0)
+			(at 104.14 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +5443,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.50512"
-			(at 232.41 74.93 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +5452,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "*"
-			(at 234.95 72.39 0)
+			(at 99.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +5461,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.44198"
-			(at 237.49 69.85 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +5470,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.41988"
-			(at 240.03 67.31 0)
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +5479,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 242.57 64.77 0)
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +5488,7 @@
 			)
 		)
 		(property "MFR#" "0705430002"
-			(at 245.11 62.23 0)
+			(at 88.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +5497,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 247.65 59.69 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +5506,7 @@
 			)
 		)
 		(property "Vendor #" "WM4801-ND"
-			(at 250.19 57.15 0)
+			(at 83.82 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +5515,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 252.73 54.61 0)
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +5524,7 @@
 			)
 		)
 		(property "Height" "11.8mm"
-			(at 255.27 52.07 0)
+			(at 78.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +5533,7 @@
 			)
 		)
 		(property "Date Created" "6/16/2020"
-			(at 283.21 24.13 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +5542,7 @@
 			)
 		)
 		(property "Date Modified" "6/16/2020"
-			(at 257.81 49.53 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +5551,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 260.35 46.99 0)
+			(at 73.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +5560,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 262.89 44.45 0)
+			(at 71.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +5569,7 @@
 			)
 		)
 		(property "Mounting" "ThroughHole"
-			(at 265.43 41.91 0)
+			(at 68.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +5578,7 @@
 			)
 		)
 		(property "Pin Count #" "3"
-			(at 267.97 39.37 0)
+			(at 66.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +5587,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 270.51 36.83 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +5596,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 273.05 34.29 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +5605,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 275.59 31.75 0)
+			(at 58.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +5614,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 278.13 29.21 0)
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +5623,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 280.67 25.4 0)
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +5632,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 285.75 20.32 0)
+			(at 48.26 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +5641,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 288.29 17.78 0)
+			(at 45.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,8 +5668,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 226.06 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3463185-3670-4e35-a245-e2b1bc80d4e6")
+		(property "Reference" "#PWR082"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "348b4e04-5dd8-4fdb-904c-890fab2ee310")
+		)
+		(instances
+			(project "recline-actuator-controller"
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:0705430002")
-		(at 227.33 95.25 0)
+		(at 106.68 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3436,7 +5746,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6dc249f-8015-4c8a-b13d-a433350e2585")
 		(property "Reference" "J19"
-			(at 233.68 99.0599 0)
+			(at 100.33 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +5755,7 @@
 			)
 		)
 		(property "Value" "0705430002"
-			(at 233.68 101.5999 0)
+			(at 100.33 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +5764,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Connectors:Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm"
-			(at 195.58 69.85 0)
+			(at 138.43 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +5773,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf"
-			(at 224.79 106.68 0)
+			(at 109.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +5782,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 3 position 0.100\" (2.54mm)"
-			(at 290.83 26.67 0)
+			(at 43.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +5791,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.92000"
-			(at 229.87 88.9 0)
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +5800,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.50512"
-			(at 232.41 86.36 0)
+			(at 101.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +5809,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "*"
-			(at 234.95 83.82 0)
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +5818,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.44198"
-			(at 237.49 81.28 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +5827,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.41988"
-			(at 240.03 78.74 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +5836,7 @@
 			)
 		)
 		(property "MFR" "Molex"
-			(at 242.57 76.2 0)
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +5845,7 @@
 			)
 		)
 		(property "MFR#" "0705430002"
-			(at 245.11 73.66 0)
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +5854,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 247.65 71.12 0)
+			(at 86.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +5863,7 @@
 			)
 		)
 		(property "Vendor #" "WM4801-ND"
-			(at 250.19 68.58 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +5872,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 252.73 66.04 0)
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +5881,7 @@
 			)
 		)
 		(property "Height" "11.8mm"
-			(at 255.27 63.5 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +5890,7 @@
 			)
 		)
 		(property "Date Created" "6/16/2020"
-			(at 283.21 35.56 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +5899,7 @@
 			)
 		)
 		(property "Date Modified" "6/16/2020"
-			(at 257.81 60.96 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +5908,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 260.35 58.42 0)
+			(at 73.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +5917,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 262.89 55.88 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +5926,7 @@
 			)
 		)
 		(property "Mounting" "ThroughHole"
-			(at 265.43 53.34 0)
+			(at 68.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +5935,7 @@
 			)
 		)
 		(property "Pin Count #" "3"
-			(at 267.97 50.8 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +5944,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 270.51 48.26 0)
+			(at 63.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +5953,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 273.05 45.72 0)
+			(at 60.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +5962,7 @@
 			)
 		)
 		(property "Type" "Shrouded Header"
-			(at 275.59 43.18 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +5971,7 @@
 			)
 		)
 		(property "Voltage" "250V"
-			(at 278.13 40.64 0)
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +5980,7 @@
 			)
 		)
 		(property "Package" "*"
-			(at 280.67 36.83 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +5989,7 @@
 			)
 		)
 		(property "_Value_" "0705430002"
-			(at 285.75 31.75 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +5998,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 288.29 29.21 0)
+			(at 45.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,6 +6019,72 @@
 			(project "recline-actuator-controller"
 				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
 					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 248.92 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffec8cc6-7dcd-4392-b9c3-e50dbc979eb7")
+		(property "Reference" "#PWR067"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 248.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e419a4d4-adae-4006-94b0-3a4b1578ff9a")
+		)
+		(instances
+			(project ""
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/4736f004-0f35-46c9-a3b6-cf86b71c1c52"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
