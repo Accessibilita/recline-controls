@@ -3820,24 +3820,6 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -44.45 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 -31.75 0)
 					(length 2.54)
 					(name "~"
@@ -4010,6 +3992,24 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -44.45 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8363,12 +8363,6 @@
 		(uuid "04f50d55-e9e3-41bd-8ef0-f0a7d120c148")
 	)
 	(junction
-		(at 264.16 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07260bea-9430-4acd-bee9-50996914c5b4")
-	)
-	(junction
 		(at 203.2 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8459,12 +8453,6 @@
 		(uuid "67cac614-26c4-4412-8e18-cc8eb1bddcec")
 	)
 	(junction
-		(at 264.16 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b31f991-7252-4c23-9915-bd919af3a60a")
-	)
-	(junction
 		(at 193.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8517,6 +8505,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a893e7c-03ed-462d-b2ef-5b8b48692f51")
+	)
+	(junction
+		(at 266.7 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92e9291-4115-4e78-8d50-fe485b04e100")
 	)
 	(junction
 		(at 227.33 116.84)
@@ -8589,16 +8583,6 @@
 			(type default)
 		)
 		(uuid "11b3717f-6001-4738-9f53-682ffa4ca63c")
-	)
-	(wire
-		(pts
-			(xy 264.16 132.08) (xy 264.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1208e18c-1c06-4d3f-b46f-0c3a50c38a6e")
 	)
 	(wire
 		(pts
@@ -8742,7 +8726,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 132.08) (xy 262.89 132.08)
+			(xy 262.89 132.08) (xy 266.7 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8942,7 +8926,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 134.62) (xy 264.16 134.62)
+			(xy 251.46 134.62) (xy 276.86 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9142,6 +9126,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 132.08) (xy 266.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744e307d-df10-4cc1-bd5d-1fef585fa16f")
+	)
+	(wire
+		(pts
 			(xy 193.04 64.77) (xy 200.66 64.77)
 		)
 		(stroke
@@ -9169,16 +9163,6 @@
 			(type default)
 		)
 		(uuid "8267ad5a-6da8-4de6-9c05-fb0f980f2c7b")
-	)
-	(wire
-		(pts
-			(xy 264.16 132.08) (xy 269.24 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8366a513-4546-4402-9754-16ed7c2577a3")
 	)
 	(wire
 		(pts
@@ -9259,6 +9243,16 @@
 			(type default)
 		)
 		(uuid "90f2f25b-e0e8-450f-9cbd-fb8a25160ef8")
+	)
+	(wire
+		(pts
+			(xy 266.7 132.08) (xy 269.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f4d480-8b08-4960-98d0-850b19337533")
 	)
 	(wire
 		(pts
@@ -9679,16 +9673,6 @@
 			(type default)
 		)
 		(uuid "e7f1b65e-6e2d-4355-9fbd-2aa57119a7df")
-	)
-	(wire
-		(pts
-			(xy 264.16 134.62) (xy 276.86 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1cefb4-3e7f-49eb-a99e-aeda73e579eb")
 	)
 	(wire
 		(pts
@@ -11303,72 +11287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 227.33 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47fc7062-bc73-4fb1-8fdd-1b1b8ab7892a")
-		(property "Reference" "#PWR038"
-			(at 227.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7788b4f2-1b16-4691-92b1-6599d1da1289")
-		)
-		(instances
-			(project "recline-actuator-controller"
-				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/55f70b80-e6e7-47cf-83a5-15783fd4e573"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AVR-KiCAD-Lib-Diodes:LMB110S-TP")
 		(at 177.8 67.31 0)
 		(unit 1)
@@ -12307,6 +12225,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 266.7 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef54107-1f6a-4236-b981-11351fde79ef")
+		(property "Reference" "#PWR031"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6451f0fd-9d23-48d7-b36b-d802af6b1cf2")
+		)
+		(instances
+			(project "recline-actuator-controller"
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/55f70b80-e6e7-47cf-83a5-15783fd4e573"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AVR-KiCAD-Lib-Connectors:RJSAE-538A-02")
 		(at 232.41 82.55 0)
 		(unit 1)
@@ -12617,7 +12602,7 @@
 		(pin "4"
 			(uuid "55253a54-bacc-4d4f-9def-1ffc2493648c")
 		)
-		(pin "14"
+		(pin "24"
 			(uuid "0d98e8cc-c1a7-4be8-a5f3-15ec33d86d07")
 		)
 		(pin "7"
@@ -15754,6 +15739,73 @@
 			(project "recline-actuator-controller"
 				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/55f70b80-e6e7-47cf-83a5-15783fd4e573"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 227.33 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8fb7266-ba2c-4ff7-8fa8-71f3f28344d9")
+		(property "Reference" "#PWR025"
+			(at 227.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 227.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abf7ad70-2df0-4b3d-9e2c-fb8bd56ab272")
+		)
+		(instances
+			(project "recline-actuator-controller"
+				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71/55f70b80-e6e7-47cf-83a5-15783fd4e573"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
