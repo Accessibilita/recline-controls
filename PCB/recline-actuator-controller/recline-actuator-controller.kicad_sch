@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 241.3 106.68) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dde08d5-f49a-4ca9-baf6-a1c69467b131")
+	)
+	(wire
+		(pts
 			(xy 180.34 157.48) (xy 180.34 124.46)
 		)
 		(stroke
@@ -157,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 73.66) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9d6cb5-7f02-440c-9dbd-ee9e654d6e3a")
+	)
+	(wire
+		(pts
 			(xy 101.6 49.53) (xy 127 49.53)
 		)
 		(stroke
@@ -164,6 +184,16 @@
 			(type default)
 		)
 		(uuid "68ab8f7c-cfa9-4a54-9d52-d18979dcc268")
+	)
+	(wire
+		(pts
+			(xy 228.6 73.66) (xy 238.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f5dc69-f8fa-484c-88f9-8ef123b5ad92")
 	)
 	(wire
 		(pts
@@ -277,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 106.68) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27b3708-5524-49c8-aba0-f474b3be551d")
+	)
+	(wire
+		(pts
 			(xy 165.1 109.22) (xy 190.5 109.22)
 		)
 		(stroke
@@ -334,6 +374,16 @@
 			(type default)
 		)
 		(uuid "c3ea52c5-6eea-4c67-8406-930ad9751226")
+	)
+	(wire
+		(pts
+			(xy 228.6 104.14) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb590fc6-bc1c-4c49-8907-ff93ad6a67d9")
 	)
 	(wire
 		(pts
@@ -404,6 +454,16 @@
 			(type default)
 		)
 		(uuid "f0bd188f-a95d-48a9-9d6e-61ede35b1752")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23f6d4b-7196-4b77-95ad-821ea6ef9a2a")
 	)
 	(wire
 		(pts
@@ -913,6 +973,26 @@
 			)
 			(uuid "2d61f80a-75cf-49a7-9d55-2da8b45c709d")
 		)
+		(pin "RS485_TX_LED2" input
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd244461-b326-4f28-a636-861b9fc48991")
+		)
+		(pin "RS485_RX_LED2" input
+			(at 228.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "129bb090-161b-4ed0-b3ae-05623886457a")
+		)
 		(instances
 			(project "recline-actuator-controller"
 				(path "/ebcf7e2b-8e27-4fda-b836-f1b7b461dd71"
@@ -1098,6 +1178,26 @@
 				(justify left)
 			)
 			(uuid "087a0f3d-f8bd-4079-bc64-b74032047a2f")
+		)
+		(pin "RS485_RX_LED2" input
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a0b40d9-5463-43e3-8a35-93bef00d979e")
+		)
+		(pin "RS485_TX_LED2" input
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e82dd087-71ca-4ec4-ab54-02872f2a6dc5")
 		)
 		(instances
 			(project "recline-actuator-controller"
