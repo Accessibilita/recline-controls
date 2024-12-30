@@ -6195,7 +6195,7 @@
 		(uuid "dd5e5abd-1361-40f2-b83b-eb73680ee016")
 	)
 	(junction
-		(at 44.45 97.79)
+		(at 44.45 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de197846-c2ff-4902-9d54-0fc98b65bd1d")
@@ -6740,7 +6740,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 97.79) (xy 44.45 97.79)
+			(xy 41.91 101.6) (xy 44.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7140,7 +7140,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 97.79) (xy 30.48 97.79)
+			(xy 31.75 101.6) (xy 30.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7250,7 +7250,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 43.18 87.63)
+			(xy 44.45 91.44) (xy 43.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7320,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 97.79) (xy 44.45 105.41)
+			(xy 44.45 101.6) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7595,18 +7595,6 @@
 			(justify left)
 		)
 		(uuid "2391bf9e-4403-4cb8-887f-c34d2d0f8aeb")
-	)
-	(hierarchical_label "5V_PG"
-		(shape input)
-		(at 269.24 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2450c9aa-768d-46ac-b4e1-5c09e473baa0")
 	)
 	(hierarchical_label "7SEG6"
 		(shape input)
@@ -9722,7 +9710,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 15.24 97.79 0)
+		(at 15.24 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9731,7 +9719,7 @@
 		(fields_autoplaced yes)
 		(uuid "42941ed9-3b7a-4230-b01a-7819bd5395ad")
 		(property "Reference" "#PWR01"
-			(at 15.24 104.14 0)
+			(at 15.24 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +9728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 15.24 102.87 0)
+			(at 15.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 97.79 0)
+			(at 15.24 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +9745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 97.79 0)
+			(at 15.24 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +9754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 15.24 97.79 0)
+			(at 15.24 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12407,7 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Mech-Switches:TL3330AF260QG")
-		(at 22.86 97.79 0)
+		(at 22.86 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12428,7 +12416,7 @@
 		(fields_autoplaced yes)
 		(uuid "86d89912-fa40-4255-9754-4952ef33707b")
 		(property "Reference" "SW1"
-			(at 22.86 90.17 0)
+			(at 22.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12424,7 @@
 			)
 		)
 		(property "Value" "TL3330AF260QG"
-			(at 22.86 92.71 0)
+			(at 22.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,7 +12432,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Mech-Switches:SW_TL3330AF260QG"
-			(at 26.162 87.122 0)
+			(at 26.162 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,7 +12441,7 @@
 			)
 		)
 		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/163/TL3330.pdf"
-			(at 26.162 87.122 0)
+			(at 26.162 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12462,7 +12450,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 83.82 31.75 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +12459,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.51000"
-			(at 25.4 91.44 0)
+			(at 25.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12480,7 +12468,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.30734"
-			(at 27.94 88.9 0)
+			(at 27.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12477,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "0.30734"
-			(at 30.48 86.36 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,7 +12486,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.29107"
-			(at 33.02 83.82 0)
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12495,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.26938"
-			(at 35.56 81.28 0)
+			(at 35.56 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12504,7 @@
 			)
 		)
 		(property "MFR" "E-Switch"
-			(at 38.1 78.74 0)
+			(at 38.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12513,7 @@
 			)
 		)
 		(property "MFR#" "TL3330AF260QG"
-			(at 40.64 76.2 0)
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12534,7 +12522,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 43.18 73.66 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12543,7 +12531,7 @@
 			)
 		)
 		(property "Vendor #" "EG4389TR-ND"
-			(at 45.72 71.12 0)
+			(at 45.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12552,7 +12540,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 48.26 68.58 0)
+			(at 48.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12561,7 +12549,7 @@
 			)
 		)
 		(property "Height" "4.4mm"
-			(at 50.8 66.04 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,7 +12558,7 @@
 			)
 		)
 		(property "Date Created" "4/14/2024"
-			(at 78.74 38.1 0)
+			(at 78.74 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12567,7 @@
 			)
 		)
 		(property "Date Modified" "4/14/2024"
-			(at 53.34 63.5 0)
+			(at 53.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12576,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 55.88 60.96 0)
+			(at 55.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12585,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 58.42 58.42 0)
+			(at 58.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,7 +12594,7 @@
 			)
 		)
 		(property "Mounting" "SMT"
-			(at 60.96 55.88 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +12603,7 @@
 			)
 		)
 		(property "Pin Count #" "2"
-			(at 63.5 53.34 0)
+			(at 63.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12624,7 +12612,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 66.04 50.8 0)
+			(at 66.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12633,7 +12621,7 @@
 			)
 		)
 		(property "Tolerance" "*"
-			(at 68.58 48.26 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12642,7 +12630,7 @@
 			)
 		)
 		(property "Type" "Mechanical Momentary Switch "
-			(at 71.12 45.72 0)
+			(at 71.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,7 +12639,7 @@
 			)
 		)
 		(property "Voltage" "12VDC"
-			(at 73.66 43.18 0)
+			(at 73.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,7 +12648,7 @@
 			)
 		)
 		(property "Package" "Proprietary"
-			(at 76.2 39.37 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +12657,7 @@
 			)
 		)
 		(property "_Value_" "TL3330AF260QG"
-			(at 81.28 34.29 0)
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +12666,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 83.82 31.75 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13061,7 +13049,7 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Resistors:RC0402FR-071KL")
-		(at 36.83 97.79 0)
+		(at 36.83 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13070,7 +13058,7 @@
 		(fields_autoplaced yes)
 		(uuid "936fd2fe-1724-43bf-9e83-c744e62ce1c9")
 		(property "Reference" "R2"
-			(at 36.83 92.71 0)
+			(at 36.83 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,7 +13066,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-071KL"
-			(at 36.83 92.71 0)
+			(at 36.83 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13087,7 +13075,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
-			(at 36.83 97.79 0)
+			(at 36.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13084,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 36.83 97.79 0)
+			(at 36.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +13093,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 97.79 31.75 0)
+			(at 97.79 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13114,7 +13102,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.10000"
-			(at 39.37 91.44 0)
+			(at 39.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13111,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.00289"
-			(at 41.91 88.9 0)
+			(at 41.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13132,7 +13120,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "0.00251"
-			(at 44.45 86.36 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13141,7 +13129,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.00207"
-			(at 46.99 83.82 0)
+			(at 46.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13150,7 +13138,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "0.00163"
-			(at 49.53 81.28 0)
+			(at 49.53 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,7 +13147,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 52.07 78.74 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13168,7 +13156,7 @@
 			)
 		)
 		(property "MFR#" "RC0402FR-071KL"
-			(at 54.61 76.2 0)
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13177,7 +13165,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 57.15 73.66 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13186,7 +13174,7 @@
 			)
 		)
 		(property "Vendor #" "311-1.00KLRTR-ND"
-			(at 59.69 71.12 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +13183,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 62.23 68.58 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13192,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 64.77 66.04 0)
+			(at 64.77 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13213,7 +13201,7 @@
 			)
 		)
 		(property "Date Created" "12/11/2019"
-			(at 92.71 38.1 0)
+			(at 92.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13210,7 @@
 			)
 		)
 		(property "Date Modified" "12/11/2019"
-			(at 67.31 63.5 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13231,7 +13219,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 69.85 60.96 0)
+			(at 69.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13240,7 +13228,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 72.39 58.42 0)
+			(at 72.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13249,7 +13237,7 @@
 			)
 		)
 		(property "Mounting" "SMT"
-			(at 74.93 55.88 0)
+			(at 74.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13258,7 +13246,7 @@
 			)
 		)
 		(property "Pin Count #" "2"
-			(at 77.47 53.34 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13267,7 +13255,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 80.01 50.8 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13276,7 +13264,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 82.55 48.26 0)
+			(at 82.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13285,7 +13273,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistor"
-			(at 85.09 45.72 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +13282,7 @@
 			)
 		)
 		(property "Voltage" "*"
-			(at 87.63 43.18 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13291,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 90.17 39.37 0)
+			(at 90.17 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,7 +13300,7 @@
 			)
 		)
 		(property "_Value_" "1K"
-			(at 36.83 95.25 0)
+			(at 36.83 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13308,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at 97.79 31.75 0)
+			(at 97.79 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +13751,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 43.18 87.63 0)
+		(at 43.18 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13772,7 +13760,7 @@
 		(fields_autoplaced yes)
 		(uuid "a64ebf36-2995-4a8b-85fe-cbbe0b8b4790")
 		(property "Reference" "#PWR04"
-			(at 43.18 91.44 0)
+			(at 43.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +13769,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 43.18 82.55 0)
+			(at 43.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 87.63 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 87.63 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13807,7 +13795,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 87.63 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,10 +14373,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c00b8d39-48ab-4f4f-985b-496847a8b05c")
 		(property "Reference" "J1"
-			(at 53.34 52.07 0)
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14396,7 +14383,7 @@
 			)
 		)
 		(property "Value" "DX07S016JA1R1500"
-			(at 53.34 54.61 0)
+			(at 53.086 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,7 +15685,7 @@
 	)
 	(symbol
 		(lib_id "AVR-KiCAD-Lib-Resistors:RC0402FR-0710KL")
-		(at 44.45 92.71 90)
+		(at 44.45 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15707,7 +15694,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbb6fc0e-9f6a-4c2d-b45e-77c4d93ab366")
 		(property "Reference" "R3"
-			(at 45.72 91.4399 90)
+			(at 45.72 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +15703,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-0710KL"
-			(at 45.72 92.7099 90)
+			(at 45.72 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +15713,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
-			(at 44.45 92.71 0)
+			(at 44.45 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +15722,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 44.45 92.71 0)
+			(at 44.45 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15731,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at -21.59 31.75 0)
+			(at -21.59 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15740,7 @@
 			)
 		)
 		(property "Cost QTY: 1" "0.10000"
-			(at 38.1 90.17 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +15749,7 @@
 			)
 		)
 		(property "Cost QTY: 1000" "0.00289"
-			(at 35.56 87.63 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +15758,7 @@
 			)
 		)
 		(property "Cost QTY: 2500" "0.00251"
-			(at 33.02 85.09 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15780,7 +15767,7 @@
 			)
 		)
 		(property "Cost QTY: 5000" "0.00207"
-			(at 30.48 82.55 0)
+			(at 30.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15789,7 +15776,7 @@
 			)
 		)
 		(property "Cost QTY: 10000" "*"
-			(at 27.94 80.01 0)
+			(at 27.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15798,7 +15785,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 25.4 77.47 0)
+			(at 25.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,7 +15794,7 @@
 			)
 		)
 		(property "MFR#" "RC0402FR-0710KL"
-			(at 22.86 74.93 0)
+			(at 22.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,7 +15803,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 20.32 72.39 0)
+			(at 20.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,7 +15812,7 @@
 			)
 		)
 		(property "Vendor #" "311-10.0KLRCT-ND"
-			(at 17.78 69.85 0)
+			(at 17.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +15821,7 @@
 			)
 		)
 		(property "Designer" "AVR"
-			(at 15.24 67.31 0)
+			(at 15.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +15830,7 @@
 			)
 		)
 		(property "Height" "0.4mm"
-			(at 12.7 64.77 0)
+			(at 12.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15852,7 +15839,7 @@
 			)
 		)
 		(property "Date Created" "12/11/2019"
-			(at -15.24 36.83 0)
+			(at -15.24 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +15848,7 @@
 			)
 		)
 		(property "Date Modified" "12/11/2019"
-			(at 10.16 62.23 0)
+			(at 10.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +15857,7 @@
 			)
 		)
 		(property "Lead-Free ?" "Yes"
-			(at 7.62 59.69 0)
+			(at 7.62 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15879,7 +15866,7 @@
 			)
 		)
 		(property "RoHS Levels" "1"
-			(at 5.08 57.15 0)
+			(at 5.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15888,7 +15875,7 @@
 			)
 		)
 		(property "Mounting" "SMT"
-			(at 2.54 54.61 0)
+			(at 2.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,7 +15884,7 @@
 			)
 		)
 		(property "Pin Count #" "2"
-			(at 0 52.07 0)
+			(at 0 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +15893,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at -2.54 49.53 0)
+			(at -2.54 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15915,7 +15902,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at -5.08 46.99 0)
+			(at -5.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15924,7 +15911,7 @@
 			)
 		)
 		(property "Type" "Thick FIlm Resistor"
-			(at -7.62 44.45 0)
+			(at -7.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15933,7 +15920,7 @@
 			)
 		)
 		(property "Voltage" "*"
-			(at -10.16 41.91 0)
+			(at -10.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15942,7 +15929,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at -13.97 39.37 0)
+			(at -13.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15951,7 +15938,7 @@
 			)
 		)
 		(property "_Value_" "10K"
-			(at 45.72 93.9799 90)
+			(at 45.72 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15960,7 +15947,7 @@
 			)
 		)
 		(property "Management_ID" "*"
-			(at -21.59 31.75 0)
+			(at -21.59 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -37,16 +37,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c9bd82-fe61-48a4-a017-c3c32d981e0a")
-	)
-	(wire
-		(pts
 			(xy 114.3 57.15) (xy 127 57.15)
 		)
 		(stroke
@@ -492,16 +482,6 @@
 				(justify right)
 			)
 			(uuid "b33f2859-772f-4b98-a729-38630812acf3")
-		)
-		(pin "5V_PG" input
-			(at 127 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c5c90e34-2332-44ff-a1a2-bc62a711a2a1")
 		)
 		(pin "3.3V_PG" input
 			(at 127 105.41 180)
@@ -956,16 +936,6 @@
 				(justify right)
 			)
 			(uuid "05b76a00-15c0-4f95-bddd-7907c935f49c")
-		)
-		(pin "5V_PG" input
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a3978c4c-dadf-4d73-9d39-4ff8a5a79b83")
 		)
 		(instances
 			(project "recline-controls"
