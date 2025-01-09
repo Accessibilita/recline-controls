@@ -4158,7 +4158,7 @@
 		(at 171.55 105.35 -90)
 		(descr "SMT capacitor, aluminium electrolytic, 8x10")
 		(property "Reference" "C21"
-			(at 4.9 -2.9 360)
+			(at 4.9 -2.9 0)
 			(layer "F.SilkS")
 			(uuid "d9c9013d-69ae-4ae2-aafc-62eba532b7dc")
 			(effects
@@ -6222,7 +6222,7 @@
 		(uuid "173e6dc0-6da0-42f3-9e2c-4820b5656e3a")
 		(at 186.165 103.7)
 		(property "Reference" "F1"
-			(at 9.1 -4.1 360)
+			(at 9.1 -4.1 0)
 			(layer "F.SilkS")
 			(uuid "392ea786-6d63-423a-9ad2-d1b2f3e669cd")
 			(effects
@@ -6233,7 +6233,7 @@
 			)
 		)
 		(property "Value" "3557-2"
-			(at -3.175 4.445 360)
+			(at -3.175 4.445 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fce1efd5-2e1a-450e-bed3-a7eb2dc5984d")
@@ -6245,7 +6245,7 @@
 			)
 		)
 		(property "Footprint" "AVR-KiCAD-Lib-Fuse-Holders:FUSE_3557-2"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ffc0fd32-2999-427b-8c9b-08ffd9555c43")
@@ -6257,7 +6257,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p41.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7893bab6-c7a4-4fa9-b2f5-071679ec4d41")
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "Description" "Fuse Block 30 A 500V 1 Circuit Blade Through Hole"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15534042-fa15-48e5-8b05-0b8786cf1640")
