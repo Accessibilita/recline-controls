@@ -106571,6 +106571,7 @@
 		)
 	)
 	(gr_text "Designed by Adam Vadala-Roth"
+		(locked yes)
 		(at 187.6 112.6 0)
 		(layer "B.SilkS")
 		(uuid "4e1d94ff-7d60-444f-8051-48f4064958ef")
@@ -106779,6 +106780,7 @@
 		)
 	)
 	(gr_text "GhostPCB LLC"
+		(locked yes)
 		(at 187.6 114.95 0)
 		(layer "B.SilkS")
 		(uuid "8f6dbb3c-6ae4-4405-b016-43f1129e617a")
@@ -106792,6 +106794,7 @@
 		)
 	)
 	(gr_text "https://github.com/Accessibilita"
+		(locked yes)
 		(at 187.8 121.55 0)
 		(layer "B.SilkS")
 		(uuid "9a023aa6-0483-4728-a777-cb4e37d84ef2")
@@ -106857,6 +106860,7 @@
 		)
 	)
 	(gr_text "Mobility Independence Foundation "
+		(locked yes)
 		(at 187.6 117.1 0)
 		(layer "B.SilkS")
 		(uuid "b248e351-d352-43a5-81e6-c956ee19ad9a")
@@ -107026,6 +107030,7 @@
 		)
 	)
 	(gr_text "Accessibilita Project"
+		(locked yes)
 		(at 187.6 119.35 0)
 		(layer "B.SilkS")
 		(uuid "f73af049-b450-4d35-b30e-40af38522951")
@@ -107039,6 +107044,7 @@
 		)
 	)
 	(gr_text "Recline Actuator Controller 0.1a 2024"
+		(locked yes)
 		(at 187.6 110.1 0)
 		(layer "B.SilkS")
 		(uuid "fdfaffda-bc4a-412a-bba9-42fcb5910a4c")
